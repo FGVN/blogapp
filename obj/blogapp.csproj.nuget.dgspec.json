@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/forgiveno/repos/blogapp/blogapp.csproj": {}
+    "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj": {}
   },
   "projects": {
-    "/home/forgiveno/repos/blogapp/blogapp.csproj": {
+    "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/forgiveno/repos/blogapp/blogapp.csproj",
+        "projectUniqueName": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj",
         "projectName": "blogapp",
-        "projectPath": "/home/forgiveno/repos/blogapp/blogapp.csproj",
-        "packagesPath": "/home/forgiveno/.nuget/packages/",
-        "outputPath": "/home/forgiveno/repos/blogapp/obj/",
+        "projectPath": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj",
+        "packagesPath": "C:\\Users\\ForgiveNo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/forgiveno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ForgiveNo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
