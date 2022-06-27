@@ -12,7 +12,7 @@
             throw new NotImplementedException();
         }
 
-        public bool Register(string login, string password)
+        public bool Register(string username, string login, string password)
         {
             //ad new data 
             throw new NotImplementedException();

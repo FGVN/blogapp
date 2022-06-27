@@ -2,9 +2,9 @@
 {
     public class Comment
     {
-        Loged _author;
-        string _text;
-        DateTime _postDate;
+        public Loged _author { get; }
+        public string _text { get; }
+        public DateTime _postDate { get; }
 
         public Comment(string text, Loged author)
         {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WLzX5JKc/NKM+KibJNRS+pN8s3s3bhOm7PqZBxlLzkI=",
+  "Hash": "q0k3jGVTJhGlElmg4H/+tipD4EaZo5aLIBFiTWXTi9I=",
   "Source": "blogapp",
   "BasePath": "_content/blogapp",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\wwwroot\\data\\loged.json",
+      "SourceId": "blogapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\wwwroot\\",
+      "BasePath": "_content/blogapp",
+      "RelativePath": "data/loged.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\loged.json"
     },
     {
       "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\wwwroot\\favicon.ico",

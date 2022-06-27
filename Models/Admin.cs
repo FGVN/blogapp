@@ -2,10 +2,12 @@
 {
     public class Admin : Loged
     {
-        string _login;
+        public string _username { get; set; }
+        public string _login { get; set; }
         string _password;
-        public Admin(string login, string password) : base (login, password)
+        public Admin(string username, string login, string password) : base (username, login, password)
         {
+            _username = username;   
             _login = login;
             _password = password;
         }
@@ -16,13 +18,13 @@
             throw new NotImplementedException();
         }
 
-        public void EditPost(Post toChange, string newText)
+        public void EditPost(Article toChange, string newText)
         {
             //already inserts with changed text;
-            toChange.SetText(newText);
+            //toChange.SetText(newText);
         }
 
-        public void DeletePost(Post toDelete)
+        public void DeletePost(Article toDelete)
         {
             //search a list for a that post and delete it
         }

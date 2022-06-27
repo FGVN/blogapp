@@ -1,0 +1,12 @@
+﻿[
+  {
+    "_username": "user one",
+    "_login": "login",
+    "_password": "password"
+  },
+  {
+    "_username": "user one!",
+    "_login": "login1",
+    "_password": "password1"
+  }
+]
