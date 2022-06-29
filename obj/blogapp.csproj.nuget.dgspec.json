@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj": {}
+    "/home/forgiveno/repos/blogapp/blogapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj": {
+    "/home/forgiveno/repos/blogapp/blogapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj",
+        "projectUniqueName": "/home/forgiveno/repos/blogapp/blogapp.csproj",
         "projectName": "blogapp",
-        "projectPath": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj",
-        "packagesPath": "C:\\Users\\ForgiveNo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\obj\\",
+        "projectPath": "/home/forgiveno/repos/blogapp/blogapp.csproj",
+        "packagesPath": "/home/forgiveno/.nuget/packages/",
+        "outputPath": "/home/forgiveno/repos/blogapp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ForgiveNo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/forgiveno/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +51,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[2.17.10, )"
             }
           },
           "imports": [
@@ -73,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
         }
       }
     }

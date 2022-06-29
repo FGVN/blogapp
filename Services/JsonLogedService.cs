@@ -17,35 +17,40 @@ namespace blogapp.Services
             get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "loged.json"); }
         }
 
-        public IEnumerable<Loged> GetLoged()
+        public List<Loged> GetLoged()
         {
-            using (var jsonFileReader = File.OpenText(JsonFileName))
-            {
-                return JsonSerializer.Deserialize<Loged[]>(jsonFileReader.ReadToEnd(),
-                    new JsonSerializerOptions
-                    {
-                        PropertyNameCaseInsensitive = true
-                    });
-            }
+            using var jsonFileReader = File.OpenText(JsonFileName);
+            var s = new List<Loged>();
+            var k = JsonSerializer.Deserialize<List<Loged>>(jsonFileReader.ReadToEnd(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+            if(k != null)
+                return k;
+            return s;
         }
 
         public bool AddLoged(Loged toAdd)
         {
-            IEnumerable<Loged> users = GetLoged();
-            if (users.First(x => x._login == toAdd._login) == null && users.First(x => x._username == toAdd._username) == null)
+            var users = GetLoged();
+            
+            if (users.Select(x => x._login).Contains(toAdd._login) == false && users.Select(x => x._username).Contains(toAdd._username) == false)
             {
-                users.ToList().Add(toAdd); 
-                using (var outputStream = File.OpenWrite(JsonFileName))
-                {
-                    JsonSerializer.Serialize<IEnumerable<Loged>>(
-                        new Utf8JsonWriter(outputStream, new JsonWriterOptions
-                        {
-                            SkipValidation = true,
-                            Indented = true
-                        }),
-                        users
-                    );
-                }
+
+                users.Add(toAdd);
+
+                using var outputStream = File.OpenWrite(JsonFileName);
+
+                JsonSerializer.Serialize<IEnumerable<Loged>>(
+                     new Utf8JsonWriter(outputStream, new JsonWriterOptions
+                    {
+                        SkipValidation = true,
+                        Indented = true
+                    }),
+                    users
+                );
+                
                 return true;
             }
             return false;

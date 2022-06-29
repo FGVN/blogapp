@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.5",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.5",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.4"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.4",
+          "Radzen.Blazor": "2.17.10"
         },
         "runtime": {
           "blogapp.dll": {}
@@ -50,6 +51,35 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
+      "Microsoft.AspNetCore.Authorization/5.0.0-rc.2.20475.17": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Metadata": "5.0.0-rc.2.20475.17",
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        }
+      },
+      "Microsoft.AspNetCore.Components/5.0.0-rc.2.20475.17": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authorization": "5.0.0-rc.2.20475.17",
+          "Microsoft.AspNetCore.Components.Analyzers": "5.0.0-rc.2.20475.17"
+        }
+      },
+      "Microsoft.AspNetCore.Components.Analyzers/5.0.0-rc.2.20475.17": {},
+      "Microsoft.AspNetCore.Components.Forms/5.0.0-rc.2.20475.17": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.0-rc.2.20475.17"
+        }
+      },
+      "Microsoft.AspNetCore.Components.Web/5.0.0-rc.2.20475.17": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.0-rc.2.20475.17",
+          "Microsoft.AspNetCore.Components.Forms": "5.0.0-rc.2.20475.17",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.JSInterop": "5.0.0-rc.2.20475.17",
+          "System.IO.Pipelines": "5.0.1"
+        }
+      },
+      "Microsoft.AspNetCore.Metadata/5.0.0-rc.2.20475.17": {},
       "Microsoft.AspNetCore.Razor.Language/6.0.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
@@ -271,7 +301,7 @@
       },
       "Microsoft.CodeAnalysis.CSharp.Scripting/4.0.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "Microsoft.CodeAnalysis.CSharp": "4.0.0",
           "Microsoft.CodeAnalysis.Common": "4.0.0",
           "Microsoft.CodeAnalysis.Scripting.Common": "4.0.0"
@@ -775,7 +805,7 @@
           }
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/2.1.4": {
         "dependencies": {
           "Microsoft.Data.SqlClient.SNI.runtime": "2.1.1",
@@ -815,22 +845,22 @@
           "runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm",
             "assetType": "native",
-            "fileVersion": "2.1.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "2.1.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "2.1.1.0"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "2.1.1.0"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1040,7 +1070,7 @@
       },
       "Microsoft.IdentityModel.Tokens/6.8.0": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "Microsoft.IdentityModel.Logging": "6.8.0",
           "System.Security.Cryptography.Cng": "5.0.0"
         },
@@ -1051,6 +1081,7 @@
           }
         }
       },
+      "Microsoft.JSInterop/5.0.0-rc.2.20475.17": {},
       "Microsoft.NET.StringTools/1.0.0": {
         "dependencies": {
           "System.Memory": "4.5.4",
@@ -1121,12 +1152,12 @@
           "runtimes/win-arm/lib/net6.0/dotnet-aspnet-codegenerator-design.exe": {
             "rid": "win-arm",
             "assetType": "runtime",
-            "fileVersion": "6.0.422.25902"
+            "fileVersion": "0.0.0.0"
           },
           "runtimes/win-arm64/lib/net6.0/dotnet-aspnet-codegenerator-design.exe": {
             "rid": "win-arm64",
             "assetType": "runtime",
-            "fileVersion": "6.0.422.25902"
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -1376,6 +1407,20 @@
           "lib/netstandard2.0/NuGet.Versioning.dll": {
             "assemblyVersion": "5.11.0.10",
             "fileVersion": "5.11.0.10"
+          }
+        }
+      },
+      "Radzen.Blazor/2.17.10": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "5.0.0-rc.2.20475.17",
+          "Microsoft.AspNetCore.Components.Web": "5.0.0-rc.2.20475.17",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Linq.Dynamic.Core": "1.2.2"
+        },
+        "runtime": {
+          "lib/net5.0/Radzen.Blazor.dll": {
+            "assemblyVersion": "2.17.10.0",
+            "fileVersion": "2.17.10.0"
           }
         }
       },
@@ -1752,6 +1797,14 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Linq.Dynamic.Core/1.2.2": {
+        "runtime": {
+          "lib/netcoreapp2.1/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.2.2.0",
+            "fileVersion": "1.2.2.0"
+          }
         }
       },
       "System.Linq.Expressions/4.3.0": {
@@ -2249,6 +2302,48 @@
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authorization/5.0.0-rc.2.20475.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VDJhNJcho4A/uo6uoiJWtrccc56/3RaKNfAMLgEOlbIRfqB2JgVLbveDK14Q5yWxMiG5UTFxbYNFdmtwsIlqQw==",
+      "path": "microsoft.aspnetcore.authorization/5.0.0-rc.2.20475.17",
+      "hashPath": "microsoft.aspnetcore.authorization.5.0.0-rc.2.20475.17.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components/5.0.0-rc.2.20475.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bv2i4JQicl56FE7k/2c8zVaXXA9Et1m3cfIY0Z1Us+xUNWlfXrKLtonLlxuMbbqFQXJu2UDR620qB4T6urEoLg==",
+      "path": "microsoft.aspnetcore.components/5.0.0-rc.2.20475.17",
+      "hashPath": "microsoft.aspnetcore.components.5.0.0-rc.2.20475.17.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Analyzers/5.0.0-rc.2.20475.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p44+nORiloH0m5WOD8iSohN+nFrU1k6EFI+JaH1rhKsxGLa4Pf8RCxd0IdAXUjwXsb+uaHZSsLlFoyLCEQXjrw==",
+      "path": "microsoft.aspnetcore.components.analyzers/5.0.0-rc.2.20475.17",
+      "hashPath": "microsoft.aspnetcore.components.analyzers.5.0.0-rc.2.20475.17.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Forms/5.0.0-rc.2.20475.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v1MgUcXwBm+ygaZgMJ8baWW63Ty1DONmLgtp8K9ktFTv0A1oR0Ax5v4BDwjmRSArSXl/ohZAF8jenszMb2/KpA==",
+      "path": "microsoft.aspnetcore.components.forms/5.0.0-rc.2.20475.17",
+      "hashPath": "microsoft.aspnetcore.components.forms.5.0.0-rc.2.20475.17.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Components.Web/5.0.0-rc.2.20475.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bXhYuURGi/89vRkhPAC/QbAVID+b3RUPZbE272rf4/M+YF1NcXs+cS//CpUKYxqNFB6edPzIOGN6lDRdjZ9beQ==",
+      "path": "microsoft.aspnetcore.components.web/5.0.0-rc.2.20475.17",
+      "hashPath": "microsoft.aspnetcore.components.web.5.0.0-rc.2.20475.17.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Metadata/5.0.0-rc.2.20475.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uzddJgHzQVMgmvU2Fecl8YFe0USE+i6Yh8iNDEQTEVfAcK2ZATxh3Q79+e338AlQ5yBlcbQZ0zkT+orGR29Lzw==",
+      "path": "microsoft.aspnetcore.metadata/5.0.0-rc.2.20475.17",
+      "hashPath": "microsoft.aspnetcore.metadata.5.0.0-rc.2.20475.17.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Razor.Language/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2389,12 +2484,12 @@
       "path": "microsoft.codeanalysis.workspaces.msbuild/4.0.0",
       "hashPath": "microsoft.codeanalysis.workspaces.msbuild.4.0.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/2.1.4": {
       "type": "package",
@@ -2578,6 +2673,13 @@
       "path": "microsoft.identitymodel.tokens/6.8.0",
       "hashPath": "microsoft.identitymodel.tokens.6.8.0.nupkg.sha512"
     },
+    "Microsoft.JSInterop/5.0.0-rc.2.20475.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pR9B/i7b2wed4ms5ghAizgPEPX53xK9va3zFG5hzq1ayzzch/aB3ZrDx/HAfELyjuCX7BMd0lVH4ynl6Kd+F9w==",
+      "path": "microsoft.jsinterop/5.0.0-rc.2.20475.17",
+      "hashPath": "microsoft.jsinterop.5.0.0-rc.2.20475.17.nupkg.sha512"
+    },
     "Microsoft.NET.StringTools/1.0.0": {
       "type": "package",
       "serviceable": true,
@@ -2752,6 +2854,13 @@
       "sha512": "sha512-mCv/GzvMk5iatWoZY41PoIShEbwVxq9CDCc1fV/uqPFKZ4DD/1JuKZ5AL/FJJRsTanvMR3EOXKYCLdQ7PFYn8Q==",
       "path": "nuget.versioning/5.11.0",
       "hashPath": "nuget.versioning.5.11.0.nupkg.sha512"
+    },
+    "Radzen.Blazor/2.17.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2FWsOIViGHptXf9qflgABgtfYDirXnWucQ6JV9aHB/rl/5n7+PCNen2yVHNT4wjVQ7y3/Bc99bU2wzYFepx1JQ==",
+      "path": "radzen.blazor/2.17.10",
+      "hashPath": "radzen.blazor.2.17.10.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -3074,6 +3183,13 @@
       "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-I3IaeyTL7eXF1EmRe5K5qpFomnD0Fd8uLfv7SqBC9IniiM2xaUDMarjDsHT1Qbvv40irH0278RkzEu0ajHKh+w==",
+      "path": "system.linq.dynamic.core/1.2.2",
+      "hashPath": "system.linq.dynamic.core.1.2.2.nupkg.sha512"
     },
     "System.Linq.Expressions/4.3.0": {
       "type": "package",

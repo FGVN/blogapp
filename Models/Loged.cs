@@ -4,17 +4,16 @@
     using System.Text.Json.Serialization;
     public class Loged 
     {
-        [JsonPropertyName("_username")]
         public string _username { get; set; }
-        [JsonPropertyName("_login")]
+
         public string _login { get; set; }
-        [JsonPropertyName("_password")]
+
         public string _password { get; set; }
-        public Loged(string username, string login, string password)
+        public Loged(string _username, string _login, string _password)
         {
-            _username = username;
-            _login = login;
-            _password = password;
+            this._username = _username;
+            this._login = _login;
+            this._password = _password;
         }
 
         public void Comment(string tex, Article toComment)

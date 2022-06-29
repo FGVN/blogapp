@@ -16,21 +16,24 @@ namespace blogapp.Controllers
 
         public JsonLogedService LogedService { get; }
 
-        [HttpGet]
-        public IEnumerable<Loged> Get()
-        {
-            return LogedService.GetLoged();
-        }
+        [Route("Sign")]
+        [HttpPost]
 
-        [Route("getloged")]
-        [HttpGet]
-        public ActionResult Get(
+        public ActionResult Post(
             [FromQuery] string username,
             [FromQuery] string login,
             [FromQuery] string password)
         {
             LogedService.AddLoged(new Loged(username, login, password));
+
             return Ok();
+        }
+
+
+        [HttpGet]
+        public IEnumerable<Loged> GetLoged()
+        {
+            return LogedService.GetLoged();
         }
 
         /*public ActionResult Get(
