@@ -2,13 +2,15 @@
 {
     public class Comment
     {
-        public Loged _author { get; }
+        public int _article_id { get; set; }
+        public string _username { get; }
         public string _text { get; }
         public DateTime _postDate { get; }
 
-        public Comment(string text, Loged author)
+        public Comment(int article_id ,string username, string text)
         {
-            _author = author;
+            _article_id = article_id;
+            _username = username;
             _text = text;
             _postDate = DateTime.Now;
         }

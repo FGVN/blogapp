@@ -28,11 +28,11 @@ namespace blogapp.Services
 
         public void AddComment(Comment toAdd, Article article)
         {
-            IEnumerable<Article> articles = GetArticles();
+            /*IEnumerable<Article> articles = GetArticles();
 
-            var query = articles.First(x => x._title == article._title);
+            var query = articles.First(x => x._id == article._id);
 
-            var comments = query._comments.ToList();
+            var comments = query.ToList();
             comments.Add(toAdd);
             query._comments.ToArray();
 
@@ -46,12 +46,12 @@ namespace blogapp.Services
                     }),
                     articles
                 );
-            }
+            }*/
         }
 
         public void AddReaction(Article toReact, Reaction reaction)
         {
-            var articles = GetArticles();
+            /*var articles = GetArticles();
             var query = articles.First(x => x == toReact);
             query._reactions.Add(reaction);
 
@@ -65,7 +65,7 @@ namespace blogapp.Services
                     }),
                     articles
                 );
-            }
+            }*/
         }
 
         public void SaveArticles(IEnumerable<Article> articles)
