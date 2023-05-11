@@ -17,35 +17,78 @@ namespace blogapp.Services
             get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "loged.json"); }
         }
 
-        public IEnumerable<Loged> GetLoged()
+        public List<Loged> GetLoged()
         {
-            using (var jsonFileReader = File.OpenText(JsonFileName))
+            using var jsonFileReader = File.OpenText(JsonFileName);
+            var empty = new List<Loged>();
+            var res = JsonSerializer.Deserialize<List<Loged>>(jsonFileReader.ReadToEnd(),
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+            if(res != null)
+                return res;
+            return empty;
+        }
+
+        public Loged Login(string login, string password)
+        {
+            var users = GetLoged();
+            if (users.FirstOrDefault(x => x._login == login) != null &&
+                users.FirstOrDefault(x => x._login == login) == users.FirstOrDefault(x => x._password == password))
             {
-                return JsonSerializer.Deserialize<Loged[]>(jsonFileReader.ReadToEnd(),
-                    new JsonSerializerOptions
-                    {
-                        PropertyNameCaseInsensitive = true
-                    });
+                return users.First(x => x._login == login);
             }
+            return new Loged(null, null, null);
         }
 
         public bool AddLoged(Loged toAdd)
         {
-            IEnumerable<Loged> users = GetLoged();
-            if (users.First(x => x._login == toAdd._login) == null && users.First(x => x._username == toAdd._username) == null)
+            var users = GetLoged();
+            
+            if (!users.Select(x => x._login).Contains(toAdd._login) && 
+                !users.Select(x => x._username).Contains(toAdd._username))
             {
-                users.ToList().Add(toAdd); 
-                using (var outputStream = File.OpenWrite(JsonFileName))
-                {
-                    JsonSerializer.Serialize<IEnumerable<Loged>>(
-                        new Utf8JsonWriter(outputStream, new JsonWriterOptions
-                        {
-                            SkipValidation = true,
-                            Indented = true
-                        }),
-                        users
-                    );
-                }
+
+                users.Add(toAdd);
+                using var outputStream = File.OpenWrite(JsonFileName);
+
+                JsonSerializer.Serialize<IEnumerable<Loged>>(
+                     new Utf8JsonWriter(outputStream, new JsonWriterOptions
+                    {
+                        SkipValidation = true,
+                        Indented = true
+                    }),
+                    users
+                );
+                
+                return true;
+            }
+            return false;
+        }
+
+        public bool AddAdmin(string username)
+        {
+            var users = GetLoged();
+
+            if (users.Select(x => x._username).Contains(username))
+            {
+
+                users.First(x => x._username == username)._isAdmin = true;
+
+                File.WriteAllText(JsonFileName, string.Empty);
+
+                using var outputStream = File.OpenWrite(JsonFileName);
+
+                JsonSerializer.Serialize<IEnumerable<Loged>>(
+                     new Utf8JsonWriter(outputStream, new JsonWriterOptions
+                     {
+                         SkipValidation = true,
+                         Indented = true
+                     }),
+                    users
+                );
+
                 return true;
             }
             return false;

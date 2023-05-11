@@ -27,14 +27,45 @@
                         </li>
                         
                     </ul>
-                    <ul class="navbar navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Login">Log in</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Signup">Sign up</a>
-                        </li>
-                    </ul>
+                    @inject Microsoft.AspNetCore.Http.IHttpContextAccessor context
+                    @{
+                        var val = context.HttpContext.Request.Cookies["username"];
+                        Console.WriteLine(val);
+                        if(context.HttpContext.Request.Cookies["isAdmin"] == "True")
+                        {
+                            <ul class="navbar navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/NewAdmin">New Admin</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/NewArticle">New Article</a>
+                                </li>
+                            </ul>
+                        }
+                        if(val == null)
+                        {
+                            <ul class="navbar navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Login">Log in</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Signup">Sign up</a>
+                                </li>
+                            </ul>
+                        }
+                        else
+                        {
+                            <ul class="navbar navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/">Hi, @val</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/Logout">Log out</a>
+                                </li>
+                            </ul>
+                        }
+                    }
+                    
                 </div>
             </div>
         </nav>

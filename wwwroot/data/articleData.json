@@ -1,0 +1,22 @@
+[
+  {
+    "_id": 1,
+    "_header": "first post",
+    "_about": "its a first post!",
+    "_title": "first post",
+    "_text": "just a simple text for the first post",
+    "_author": "FGVN",
+    "_postDate": "2023-04-16T04:20:20.9456898+03:00",
+    "_viewcount": 0
+  },
+  {
+    "_id": 2,
+    "_header": "second post",
+    "_about": "just a second post and some about",
+    "_title": "second post",
+    "_text": "just a simple text for second post",
+    "_author": "FGVN",
+    "_postDate": "2023-04-16T04:20:35.5627565+03:00",
+    "_viewcount": 3
+  }
+]

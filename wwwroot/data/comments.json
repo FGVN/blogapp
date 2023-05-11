@@ -1,0 +1,17 @@
+[
+  {
+    "_article_id": 2,
+    "_username": "FGVN",
+    "_text": "Wow!",
+    "_replies": [
+      {
+        "_article_id": 2,
+        "_username": "FGVN",
+        "_text": "Yeah",
+        "_replies": [],
+        "_postDate": "2023-04-16T04:20:54.7772652+03:00"
+      }
+    ],
+    "_postDate": "2023-04-16T04:20:47.5988192+03:00"
+  }
+]

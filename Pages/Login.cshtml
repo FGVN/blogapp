@@ -1,8 +1,28 @@
 ﻿@page
-@model LoginModel
+@model Login
 @{
     ViewData["Title"] = "Login";
 }
 <h1>@ViewData["Title"]</h1>
+<style>
+    .onTarget
+    {
+        display:none;
+    } 
+    .onTarget:target
+    { 
+        display:block;
+    }
+</style>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<p>Sign in</p>
+<p class="onTarget" id="Error" style="color:red">User with such credenrials do not exist<br>Try to use another email or password or <a href="/Signup">signup</a></p>
+<form method="post">
+    <p>Login:</p>
+    <input type="email" name="login">
+    <br>
+    <p>Password:</p>
+    <input type="password" name="password">
+    <br>
+    <input type="submit">
+</form>

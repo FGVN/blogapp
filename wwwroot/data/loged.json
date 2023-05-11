@@ -1,12 +1,14 @@
-﻿[
+[
   {
-    "_username": "user one",
-    "_login": "login",
-    "_password": "password"
+    "_isAdmin": true,
+    "_username": "FGVN",
+    "_login": "holovaiivan@gmail.com",
+    "_password": "Ondudeuzumymw5!"
   },
   {
-    "_username": "user one!",
-    "_login": "login1",
-    "_password": "password1"
+    "_isAdmin": true,
+    "_username": "user",
+    "_login": "user@gmail.com",
+    "_password": "123"
   }
 ]

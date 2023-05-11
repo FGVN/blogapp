@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj": {}
+    "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\blogapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj": {
+    "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\blogapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj",
+        "projectUniqueName": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\blogapp.csproj",
         "projectName": "blogapp",
-        "projectPath": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\blogapp.csproj",
+        "projectPath": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\blogapp.csproj",
         "packagesPath": "C:\\Users\\ForgiveNo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ForgiveNo\\source\\repos\\FGVN\\blogapp\\blogapp\\obj\\",
+        "outputPath": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ForgiveNo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.5, )"
@@ -53,6 +57,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.4, )"
+            },
+            "Radzen.Blazor": {
+              "target": "Package",
+              "version": "[2.17.10, )"
             }
           },
           "imports": [

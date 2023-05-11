@@ -16,21 +16,44 @@ namespace blogapp.Controllers
 
         public JsonLogedService LogedService { get; }
 
-        [HttpGet]
-        public IEnumerable<Loged> Get()
-        {
-            return LogedService.GetLoged();
-        }
+        [Route("Sign")]
+        [HttpPost]
 
-        [Route("getloged")]
-        [HttpGet]
-        public ActionResult Get(
+        public IActionResult Post(
             [FromQuery] string username,
             [FromQuery] string login,
             [FromQuery] string password)
         {
-            LogedService.AddLoged(new Loged(username, login, password));
-            return Ok();
+            if(username == "" || login == "" || password == "")
+            {
+                return Redirect("/Signup");
+            }
+            if (LogedService.AddLoged(new Loged(username, login, password)))
+            {
+                return Redirect("/Index");
+            }
+            return Redirect("/Signup#Error");
+        }
+
+
+        public bool AddAdmin(string username)
+        {
+            if (username != "")
+                return LogedService.AddAdmin(username);
+            return false;
+        }
+        public Loged Login(string login, string password)
+        {
+            if (login == "" || password == "")
+                return new Loged(null, null, null);
+            return LogedService.Login(login, password);
+        }
+
+
+        [HttpGet]
+        public IEnumerable<Loged> GetLoged()
+        {
+            return LogedService.GetLoged();
         }
 
         /*public ActionResult Get(

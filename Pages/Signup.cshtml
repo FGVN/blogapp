@@ -1,21 +1,30 @@
 ﻿@page
-@model PrivacyModel
-@{
-    ViewData["Title"] = "Sign up";
-}
-<h1>@ViewData["Title"]</h1>
+@using blogapp.Pages
+@model Signup
 
-<p>Use this page to detail your site's privacy policy.</p>
+<style>
+    .onTarget
+    {
+        display:none;
+    } 
+    .onTarget:target
+    { 
+        display:block;
+    }
+</style>
 
-<form action="/url" method="GET">
-        <p>Enter username</p>
-        <input type="text"> 
-        <br>
-        <p>Enter login</p>
-        <input type="email">
-        <br>
-        <p>Enter password</p>
-        <input type="password">
-        <br>
-        <button type="submit">Sign Up!</button>
+<p>Sign in</p>
+<p class="onTarget" id="Error" style="color:red">User with such credenrials already exists<br>Try to login or use another email or password</p>
+<form method="post">
+    <p>Username:</p>
+    <input type="text" name="username"> 
+    <br>
+    <p>Login:</p>
+    <input type="email" name="login">
+    <br>
+    <p>Password:</p>
+    <input type="password" name="password">
+    <br>
+    <input type="submit">
 </form>
+

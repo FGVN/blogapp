@@ -1,0 +1,38 @@
+﻿@page
+@model blogapp.Pages.NewAdmin
+@{
+}    
+        
+<style>
+    .onTarget
+    {
+        display:none;
+    } 
+    .onTarget:target
+    { 
+        display:block;
+    }
+</style>
+
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor context
+@{
+    if(context.HttpContext.Request.Cookies["isAdmin"] == "True")
+    {
+        <p>Enter a username of an existing user to add admin</p>
+        <p class="onTarget" id="Error" style="color:red">User do not exist</p>
+        <form method="post">
+            <p>Username:</p>
+            <input type="text" name="username"> 
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+    }
+    else
+    {
+        <h1 style="color:red">You are not supposed to be here</h1>
+        <br>
+        <br>
+        <a href="/index"><h1>To main page</h1></a>
+    }
+}

@@ -6,7 +6,8 @@ using blogapp.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddRazorPages();
+builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
 
 //builder.Services.AddControllers();
 
@@ -14,6 +15,20 @@ builder.Services.AddRazorPages();
 //configuring services
 builder.Services.AddTransient<LoginController>();
 builder.Services.AddTransient<JsonLogedService>();
+builder.Services.AddTransient<JsonArticleService>();
+builder.Services.AddTransient<JsonCommentService>();
+
+builder.Services.AddDistributedMemoryCache();
+
+// To ue cookies data in layout.cshtml
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromSeconds(10);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 var app = builder.Build();
 
@@ -32,6 +47,8 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+
+app.UseSession();
 
 app.MapRazorPages();
 
