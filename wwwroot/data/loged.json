@@ -1,14 +1,20 @@
 [
   {
     "_isAdmin": true,
-    "_username": "FGVN",
-    "_login": "holovaiivan@gmail.com",
-    "_password": "Ondudeuzumymw5!"
-  },
-  {
-    "_isAdmin": true,
     "_username": "user",
     "_login": "user@gmail.com",
     "_password": "123"
+  },
+  {
+    "_isAdmin": false,
+    "_username": "user1",
+    "_login": "user1@gmail.com",
+    "_password": "0a041b9462caa4a31bac3567e0b6e6fd9100787db2ab433d96f6d178cabfce90"
+  },
+  {
+    "_isAdmin": false,
+    "_username": "FGVN",
+    "_login": "holovaiivan@gmail.com",
+    "_password": "6106f21fba5263e2db8ce1e25f5b959e8a60d38a077d07217c8bcf79be4e8d34"
   }
 ]

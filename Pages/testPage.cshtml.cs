@@ -64,13 +64,24 @@ namespace blogapp.Pages
             var username = Request.Cookies["username"];
             var login = Request.Cookies["login"];
             var password = Request.Cookies["password"];
+            var toAddDate = Convert.ToDateTime(Request.Form["postDate"]);
 
 
             //Comment toAdd = new Comment( 0, "", "");
+            foreach(var i in CommentService.GetComments().ToList().
+                Where(x => x._username == Request.Form["username"]))
+            {
+                Console.WriteLine(i._postDate + "/" + toAddDate + "res:" + DateTime.Compare(i._postDate, toAddDate));
+                
+            }
 
             Comment toAdd = CommentService.GetComments().ToList().
                 Where(x => x._username == Request.Form["username"]).
-                First(x => x._article_id == Convert.ToInt32(Request.Form["id"]));
+                First(x => 
+                x._postDate.Date == toAddDate.Date && 
+                x._postDate.Hour == toAddDate.Hour &&
+                x._postDate.Minute == toAddDate.Minute &&
+                x._postDate.Second == toAddDate.Second);
 
             Comment reply = new Comment(Convert.ToInt32(Request.Form["reply_id"]), username, Request.Form["reply_text"]);
 

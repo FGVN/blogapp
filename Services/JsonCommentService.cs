@@ -51,7 +51,7 @@ namespace blogapp.Services
         {
             var comments = GetComments().ToList();
 
-            comments.First(x => x._postDate == toAdd._postDate)._replies.Add(Reply);
+            comments.Where(x => x._username == toAdd._username).First(x => x._postDate == toAdd._postDate)._replies.Add(Reply);
 
             using var outputStream = File.OpenWrite(JsonFileName);
 

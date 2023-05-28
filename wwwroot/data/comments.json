@@ -2,16 +2,38 @@
   {
     "_article_id": 2,
     "_username": "FGVN",
-    "_text": "Wow!",
+    "_text": "interesting!",
     "_replies": [
       {
         "_article_id": 2,
         "_username": "FGVN",
-        "_text": "Yeah",
+        "_text": "yes",
         "_replies": [],
-        "_postDate": "2023-04-16T04:20:54.7772652+03:00"
+        "_postDate": "2023-05-19T00:35:20.1436305+03:00"
+      },
+      {
+        "_article_id": 2,
+        "_username": "FGVN",
+        "_text": "very",
+        "_replies": [],
+        "_postDate": "2023-05-19T00:35:36.6618402+03:00"
       }
     ],
-    "_postDate": "2023-04-16T04:20:47.5988192+03:00"
+    "_postDate": "2023-05-19T00:35:17.0682143+03:00"
+  },
+  {
+    "_article_id": 2,
+    "_username": "FGVN",
+    "_text": "whoa",
+    "_replies": [
+      {
+        "_article_id": 2,
+        "_username": "FGVN",
+        "_text": "yea",
+        "_replies": [],
+        "_postDate": "2023-05-19T00:35:31.2931237+03:00"
+      }
+    ],
+    "_postDate": "2023-05-19T00:35:28.2115668+03:00"
   }
 ]

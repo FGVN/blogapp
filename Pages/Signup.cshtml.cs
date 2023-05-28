@@ -34,6 +34,8 @@ namespace blogapp.Pages
 
             string password = Request.Form["password"];
 
+            password = HashController.HashString(password);
+
             var cookieOptions = new CookieOptions();
 
             cookieOptions.Path = "/";

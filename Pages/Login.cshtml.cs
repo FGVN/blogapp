@@ -31,6 +31,8 @@ public class Login : PageModel
 
         string password = Request.Form["password"];
 
+        password = HashController.HashString(password);
+
         Loged result = loginController.Login(login, password);
 
         if(result._login != null)
