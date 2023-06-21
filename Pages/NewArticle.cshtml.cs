@@ -20,9 +20,41 @@ namespace blogapp.Pages
             ArticleService = articleservice;
             articleController = new ArticleController(ArticleService);
         }
+
+        [BindProperty]
+        public IFormFile ImageFile { get; set; }
+
         public void OnGet()
         {
         }
+
+        public async Task<IActionResult> OnPostEdit()
+        {
+            if (ImageFile != null && ImageFile.Length > 0)
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "data", "pics");
+
+                if (!Directory.Exists(uploadsFolder))
+                {
+                    Directory.CreateDirectory(uploadsFolder);
+                }
+
+                var fileName = Path.GetFileName(ImageFile.FileName);
+                var filePath = Path.Combine(uploadsFolder, fileName);
+
+                using (var fileStream = new FileStream(filePath, FileMode.Create))
+                {
+                    await ImageFile.CopyToAsync(fileStream);
+                }
+
+                _logger.LogInformation($"Image '{fileName}' uploaded successfully.");
+                return new RedirectToPageResult("/NewArticle");
+            }
+
+            _logger.LogInformation($"No image file provided.");
+            return new RedirectToPageResult("/NewArticle");
+        }
+
 
         public IActionResult OnPost()
         {

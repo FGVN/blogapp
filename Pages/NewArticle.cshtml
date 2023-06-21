@@ -20,3 +20,15 @@
     <br>
     <input type="submit">
 </form>
+
+
+    <br>
+    <form asp-page-handler="edit" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="imageFile">Image File:</label>
+            <input type="file" id="imageFile" name="ImageFile" class="form-control-file" accept=".jpg,.jpeg,.png" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Upload</button>
+    </form>

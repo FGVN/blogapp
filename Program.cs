@@ -69,4 +69,6 @@ app.UseEndpoints(endpoints =>
     //});
 });
 
+app.UseStaticFiles();
+
 app.Run();
