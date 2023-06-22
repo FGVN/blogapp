@@ -48,6 +48,11 @@ namespace blogapp.Pages
                 }
 
                 _logger.LogInformation($"Image '{fileName}' uploaded successfully.");
+                if(Request.Cookies["tmpImg"] != null)
+                {
+                    Response.Cookies.Delete("tmpImg");
+                }
+                Response.Cookies.Append("tmpImg", fileName, new CookieOptions());
                 return new RedirectToPageResult("/NewArticle");
             }
 
@@ -81,3 +86,4 @@ namespace blogapp.Pages
         }
     }
 }
+

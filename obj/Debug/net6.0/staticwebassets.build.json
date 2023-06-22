@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DLzQ8jQdD9KpKw9iasH2W1zbT++shAjLtVf2IfGyoJ4=",
+  "Hash": "rKZcTG25bAn5byxgViB/7wC2fNj2Zd8c/hqK298p+Zo=",
   "Source": "blogapp",
   "BasePath": "_content/blogapp",
   "Mode": "Default",
@@ -542,6 +542,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\loged.json"
+    },
+    {
+      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\data\\pics\\jsimage.png",
+      "SourceId": "blogapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "BasePath": "_content/blogapp",
+      "RelativePath": "data/pics/jsimage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\pics\\jsimage.png"
+    },
+    {
+      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\data\\pics\\photomode_31012021_145354.png",
+      "SourceId": "blogapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "BasePath": "_content/blogapp",
+      "RelativePath": "data/pics/photomode_31012021_145354.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\pics\\photomode_31012021_145354.png"
     },
     {
       "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\favicon.ico",
