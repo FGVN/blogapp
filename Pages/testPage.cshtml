@@ -11,7 +11,7 @@
 <h2>@Model.articles[0]._about</h2>
 <br>
 <input type="hidden" id="modelText" value="@Model.articles[0]._text" />
-<div id="text"></div>
+<div id="text" style="height:auto;"></div>
 <br>
 <p>@Model.articles[0]._viewcount</p>
 
@@ -36,25 +36,25 @@
     <h2>@i._text</h2>
         foreach(var k in i._replies)
         {
-    <br>
-    <h3>@k._username</h3>
-    <br>
-    <h3>@k._postDate</h3>
-    <br>
-    <h3>@k._text</h3>
+            <br>
+            <h3>@k._username</h3>
+            <br>
+            <h3>@k._postDate</h3>
+            <br>
+            <h3>@k._text</h3>
         }
 
     <form asp-page-handler="edit" method="post">
-                            <input type="number" name="id" value="@i._article_id" style="display:none;">
-                            <input type="datetime" name="postDate" value="@i._postDate" style="display:none;">
-                            <input type="text" name="username" value="@i._username" style="display:none;">
+        <input type="number" name="id" value="@i._article_id" style="display:none;">
+        <input type="datetime" name="postDate" value="@i._postDate" style="display:none;">
+        <input type="text" name="username" value="@i._username" style="display:none;">
 
 
-                            <input type="number" name="reply_id" value="@Model.articles[0]._id" style="display:none;">
-                            <p>Reply</p>
-                            <input type="text" name="reply_text">
-                            <br>
-                            <input type="submit">
+        <input type="number" name="reply_id" value="@Model.articles[0]._id" style="display:none;">
+        <p>Reply</p>
+        <input type="text" name="reply_text">
+        <br>
+        <input type="submit">
     </form>
     }
 }
@@ -63,22 +63,12 @@
 <script type="text/javascript">
     window.onload = function() {
       var text = document.getElementById("modelText").value;
-      document.getElementById("text").innerHTML = convertBackFromEntities(text);
-      console.log(document.getElementById("text").innerHTML);
+      document.getElementById("text").innerHTML += text;
+
+      
+          var map = {amp: '&', lt: '<', gt: '>', quot: '"', '#039': "'"}
+          var html = document.getElementById("text").innerHTML.replace(/&([^;]+);/g, (m, c) => map[c]);
+          document.getElementById("text").innerHTML = html;
     }
 
-    function convertBackFromEntities(html) {
-      var map = {amp: '&', lt: '<', gt: '>', quot: '"', '#039': "'"};
-      var reverseMap = {};
-      for (var key in map) {
-        if (map.hasOwnProperty(key)) {
-          reverseMap[map[key]] = key;
-        }
-      }
-
-      var convertedHtml = html.replace(/&([^;]+);/g, (m, c) => reverseMap[c]);
-      convertedHtml = convertedHtml.replace(/\\u[\dA-F]{4}/gi, (match) => String.fromCharCode(parseInt(match.substring(2), 16)));
-
-      return convertedHtml;
-    }
 </script>
