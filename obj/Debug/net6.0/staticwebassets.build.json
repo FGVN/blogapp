@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w3zFUxiKF0AuDJshBmsxVmepPpd/Uw0g5vcjtC5CH+s=",
+  "Hash": "9L65C/Uqe8IoOU6e2P8rio3XE2vJMVLHoTqQn4PX9Ro=",
   "Source": "blogapp",
   "BasePath": "_content/blogapp",
   "Mode": "Default",
@@ -559,6 +559,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\data\\pics\\2023-06-23 14_45_42-Новая вкладка.png"
+    },
+    {
+      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\data\\pics\\jsimage.png",
+      "SourceId": "blogapp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "BasePath": "_content/blogapp",
+      "RelativePath": "data/pics/jsimage.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\data\\pics\\jsimage.png"
     },
     {
       "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\favicon.ico",

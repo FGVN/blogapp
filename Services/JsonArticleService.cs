@@ -43,14 +43,14 @@ namespace blogapp.Services
 
 
                 //var sourceCS = WebHostEnvironment.ContentRootPath + "\\Pages\\" + "testPage" + ".cshtml.cs";
-                var sourceCSHTML = WebHostEnvironment.ContentRootPath + "\\Pages\\" + "testPage" + ".cshtml";
+                var sourceCSHTML = Path.Combine(WebHostEnvironment.ContentRootPath, "Pages", "testPage.cshtml");
 
                 Console.WriteLine(WebHostEnvironment.ContentRootPath);
 
 
                 //var destinationCS = WebHostEnvironment.ContentRootPath + "\\Pages\\" + toAdd._title.Replace(" ", "-") + ".chtml.cs";
 
-                var destinationCSHTML = WebHostEnvironment.ContentRootPath + "\\Pages\\" + toAdd._title.Replace(" ", "-") + ".cshtml"; 
+                var destinationCSHTML = Path.Combine(WebHostEnvironment.ContentRootPath, "Pages" ,toAdd._title.Replace(" ", "-") + ".cshtml"); 
 
 
 
