@@ -19,7 +19,7 @@
     <div name="content" contenteditable="true" style="height:10vw; border-block-color:black; border-width:2px;"></div>
     <input type="hidden" name="text" contenteditable="true"> 
     <br>
-    <input type="submit">
+    <button type="submit" onclick="fromText();">submit</button>
 </form>
   
 <br>
@@ -33,16 +33,20 @@
 </form>
 
 <script>
-
         
         var el = document.getElementsByName("content")[0]
         el.addEventListener('blur', function() {
+          //putting contenteditable div content to text
+          document.getElementsByName("text")[0].value = document.getElementsByName("content")[0].innerHTML.toString();
+
           var map = {amp: '&', lt: '<', gt: '>', quot: '"', '#039': "'"}
           var html = this.innerHTML.replace(/&([^;]+);/g, (m, c) => map[c]);
           this.innerHTML = html;
-          //putting contenteditable div content to text
-          document.getElementsByName("text")[0].value = document.getElementsByName("content")[0].innerHTML.toString();
         });
+        document.getElementById('imageFile').onchange = function () {
+          setCookie("tmpImg", this.value.split('\\')[2], 1);
+        };
+
 
         function setCookie(name,value,days) {
             var expires = "";
@@ -85,15 +89,18 @@
             if (getCookie("tmpText") != null) {
                 document.getElementsByName("text")[0].value = getCookie("tmpText");
                 document.getElementsByName("content")[0].innerHTML = document.getElementsByName("text")[0].value;
-                console.log(document.getElementsByName("text")[0].value);
                 eraseCookie("tmpText");
+            }
+            if (getCookie("tmpImg") != null) {
+                document.getElementsByName("text")[0].value += ("<img src='/data/pics/" + getCookie("tmpImg") + "' />");
+                document.getElementsByName("content")[0].innerHTML += ("<img src='/data/pics/" + getCookie("tmpImg") + "' />");
+                eraseCookie("tmpImg");
             }
         }
         function conservateValues(){
             setCookie("tmpHeader", document.getElementsByName("header")[0].value, 1);
             setCookie("tmpAbout", document.getElementsByName("about")[0].value, 1);
             setCookie("tmpTitle", document.getElementsByName("title")[0].value, 1);
-            document.getElementsByName("text")[0].value += ("<img src='/data/pics/" + getCookie("tmpImg") + "' />");
             setCookie("tmpText", document.getElementsByName("text")[0].value, 1);
         }
 </script>
