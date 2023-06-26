@@ -7,7 +7,7 @@
     "_text": "just a simple text for the first post",
     "_author": "FGVN",
     "_postDate": "2023-04-16T04:20:20.9456898+03:00",
-    "_viewcount": 14
+    "_viewcount": 27
   },
   {
     "_id": 2,
@@ -18,5 +18,35 @@
     "_author": "FGVN",
     "_postDate": "2023-04-16T04:20:35.5627565+03:00",
     "_viewcount": 33
+  },
+  {
+    "_id": 3,
+    "_header": "Hello and welcome",
+    "_about": "Welcoming post",
+    "_title": "welcome post",
+    "_text": "\u003Ch1\u003EHello and welcome!\u003C/h1\u003E\u003Cimg style=\u0022max-width:100%\u003Cimg src=\u0027/data/pics/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg\u0027 /\u003E",
+    "_author": "FGVN",
+    "_postDate": "2023-06-26T03:38:14.0066831+03:00",
+    "_viewcount": 2
+  },
+  {
+    "_id": 4,
+    "_header": "Images",
+    "_about": "about",
+    "_title": "1ims",
+    "_text": "\u003Cimg src=\u0022/data/pics/1442551.jpg\u0022\u003E\u0026lt;br\u0026gt;\u0026lt;h2\u0026gt;I hope it\u0060ll work\u0026lt;/h2\u0026gt;\u0026lt;br\u0026gt;\u003Cimg src=\u0022/data/pics/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg\u0022\u003E\u0026lt;br\u0026gt;\u0026lt;h1\u0026gt;Here is some images\u0026lt;/h1\u0026gt;",
+    "_author": "FGVN",
+    "_postDate": "2023-06-26T04:27:33.843131+03:00",
+    "_viewcount": 2
+  },
+  {
+    "_id": 5,
+    "_header": "Showing you pictures",
+    "_about": "One more time....",
+    "_title": "2Imgs",
+    "_text": "\u003Ch1\u003ENow look at this\u003C/h1\u003E\u003Cbr\u003E\u003Cimg src=\u0022/data/pics/1442551.jpg\u0022\u003E\u0026lt;br\u0026gt;\u0026lt;h2\u0026gt;And even this\u0026lt;/h2\u0026gt;\u0026lt;br\u0026gt;\u003Cimg src=\u0022/data/pics/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg\u0022\u003E",
+    "_author": "FGVN",
+    "_postDate": "2023-06-26T09:16:32.0703112+03:00",
+    "_viewcount": 5
   }
 ]

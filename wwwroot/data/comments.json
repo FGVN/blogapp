@@ -35,5 +35,27 @@
       }
     ],
     "_postDate": "2023-05-19T00:35:28.2115668+03:00"
+  },
+  {
+    "_article_id": 1,
+    "_username": "FGVN",
+    "_text": "zxc",
+    "_replies": [],
+    "_postDate": "2023-06-26T09:00:08.4164328+03:00"
+  },
+  {
+    "_article_id": 5,
+    "_username": "FGVN",
+    "_text": "Wow!",
+    "_replies": [
+      {
+        "_article_id": 5,
+        "_username": "FGVN",
+        "_text": "What so wow about that?",
+        "_replies": [],
+        "_postDate": "2023-06-26T09:17:13.4595499+03:00"
+      }
+    ],
+    "_postDate": "2023-06-26T09:16:57.6813622+03:00"
   }
 ]

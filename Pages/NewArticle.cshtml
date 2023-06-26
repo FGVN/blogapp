@@ -6,20 +6,17 @@
 <h1>Create new article</h1>
 
 <form method="post" onload="checkCookies();">
-    <p>Header:</p>
-    <input type="text" name="header"> 
+    <input type="text" name="header" placeholder="Header"> 
+    <input type="text" name="about" placeholder="About"> 
+    <input type="text" name="title" placeholder="Title"> 
     <br>
-    <p>About:</p>
-    <input type="text" name="about"> 
-    <br>
-    <p>Title:</p>
-    <input type="text" name="title"> 
-    <br>
-    <p>Text:</p>
-    <div name="content" contenteditable="true" style="height:auto; border-block-color:black; border-width:2px;"></div>
+    <p>Article body:</p>
+    <div name="content" contenteditable="true" style="height:auto; border-color:black; border-width:2px;">
+        <i>Start Writing here</i>
+    </div>
     <input type="hidden" name="text" contenteditable="true"> 
     <br>
-    <button type="submit" onclick="fromText();">submit</button>
+    <button type="submit" onclick="fromText();">Publish article</button>
 </form>
   
 <br>
@@ -31,6 +28,13 @@
     </div>
     <button type="submit" class="btn btn-primary" onclick="conservateValues();">Upload</button>
 </form>
+
+
+<style>
+    img {
+        max-width: 100%;
+    }
+</style>
 
 <script>
         
@@ -92,8 +96,9 @@
                 eraseCookie("tmpText");
             }
             if (getCookie("tmpImg") != null) {
-                document.getElementsByName("text")[0].value += ("<img src='/data/pics/" + getCookie("tmpImg") + "' />");
-                document.getElementsByName("content")[0].innerHTML += ("<img src='/data/pics/" + getCookie("tmpImg") + "' />");
+                document.getElementsByName("text")[0].value += ("<img src='/data/pics/" + getCookie("tmpImg") + "'/>");
+                document.getElementsByName("content")[0].innerHTML = document.getElementsByName("text")[0].value;
+                console.log(document.getElementsByName("text")[0].value);
                 eraseCookie("tmpImg");
             }
         }

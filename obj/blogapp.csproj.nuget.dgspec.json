@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\blogapp.csproj": {}
+    "C:\\Users\\wez\\source\\repos\\blogapp\\blogapp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\blogapp.csproj": {
+    "C:\\Users\\wez\\source\\repos\\blogapp\\blogapp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\blogapp.csproj",
+        "projectUniqueName": "C:\\Users\\wez\\source\\repos\\blogapp\\blogapp.csproj",
         "projectName": "blogapp",
-        "projectPath": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\blogapp.csproj",
-        "packagesPath": "C:\\Users\\ForgiveNo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\obj\\",
+        "projectPath": "C:\\Users\\wez\\source\\repos\\blogapp\\blogapp.csproj",
+        "packagesPath": "C:\\Users\\wez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\wez\\source\\repos\\blogapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ForgiveNo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wez\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -69,7 +70,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

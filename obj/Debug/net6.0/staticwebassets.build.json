@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9L65C/Uqe8IoOU6e2P8rio3XE2vJMVLHoTqQn4PX9Ro=",
+  "Hash": "SuAD8Iw3A1phQaIwAfMayO9/V/OcOmn5AGM6vvWYBdE=",
   "Source": "blogapp",
   "BasePath": "_content/blogapp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "blogapp\\wwwroot",
       "Source": "blogapp",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\dark.css",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\dark.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/dark.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\dark.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\dark.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\dark-base.css",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\dark-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/dark-base.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\dark-base.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\dark-base.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\default.css",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\default.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/default.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\default.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\default.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\default-base.css",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\default-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/default-base.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\default-base.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\default-base.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\humanistic.css",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\humanistic.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/humanistic.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\humanistic.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\humanistic.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\humanistic-base.css",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\humanistic-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/humanistic-base.css",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\humanistic-base.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\humanistic-base.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\software.css",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\software.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/software.css",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\software.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\software.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\software-base.css",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\software-base.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/software-base.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\software-base.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\css\\software-base.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\MaterialIcons-Regular.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\MaterialIcons-Regular.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/MaterialIcons-Regular.woff",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\MaterialIcons-Regular.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\MaterialIcons-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-300.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-300.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-300.woff",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-300.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-300.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-700.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-700.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-700.woff",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-700.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-700.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-regular.woff",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Black.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Black.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Black.woff",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Black.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Black.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-BlackIt.woff",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Bold.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Bold.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Bold.woff",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Bold.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-BoldIt.woff",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-ExtraLight.woff",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-ExtraLightIt.woff",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-It.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-It.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-It.woff",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-It.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-It.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Light.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Light.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Light.woff",
       "AssetKind": "All",
@@ -354,13 +354,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Light.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Light.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-LightIt.woff",
       "AssetKind": "All",
@@ -371,13 +371,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Regular.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Regular.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Regular.woff",
       "AssetKind": "All",
@@ -388,13 +388,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Regular.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Semibold.woff",
       "AssetKind": "All",
@@ -405,13 +405,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-SemiboldIt.woff",
       "AssetKind": "All",
@@ -422,13 +422,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\Radzen.Blazor.js",
+      "Identity": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\Radzen.Blazor.js",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
+      "ContentRoot": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "Radzen.Blazor.js",
       "AssetKind": "All",
@@ -439,13 +439,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\Radzen.Blazor.js"
+      "OriginalItemSpec": "C:\\Users\\wez\\.nuget\\packages\\radzen.blazor\\2.17.10\\staticwebassets\\Radzen.Blazor.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\blogapp.styles.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\blogapp.styles.css",
       "SourceId": "blogapp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "blogapp.styles.css",
       "AssetKind": "All",
@@ -456,13 +456,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\blogapp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\source\\repos\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\blogapp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\blogapp.bundle.scp.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\blogapp.bundle.scp.css",
       "SourceId": "blogapp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "blogapp.bundle.scp.css",
       "AssetKind": "All",
@@ -473,13 +473,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\blogapp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\wez\\source\\repos\\blogapp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\blogapp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\css\\styles.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\data\\articleData.json",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\data\\articleData.json",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "data/articleData.json",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\data\\articleData.json"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\data\\comments.json",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\data\\comments.json",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "data/comments.json",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\data\\comments.json"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\data\\loged.json",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\data\\loged.json",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "data/loged.json",
       "AssetKind": "All",
@@ -544,12 +544,12 @@
       "OriginalItemSpec": "wwwroot\\data\\loged.json"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\data\\pics\\2023-06-23 14_45_42-Новая вкладка.png",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\data\\pics\\1442551.jpg",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
-      "RelativePath": "data/pics/2023-06-23 14_45_42-Новая вкладка.png",
+      "RelativePath": "data/pics/1442551.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -558,15 +558,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\data\\pics\\2023-06-23 14_45_42-Новая вкладка.png"
+      "OriginalItemSpec": "wwwroot\\data\\pics\\1442551.jpg"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\data\\pics\\jsimage.png",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\data\\pics\\digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
-      "RelativePath": "data/pics/jsimage.png",
+      "RelativePath": "data/pics/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -575,13 +575,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\data\\pics\\jsimage.png"
+      "OriginalItemSpec": "wwwroot\\data\\pics\\digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\favicon.ico",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\js\\site.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "blogapp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ForgiveNo\\source\\repos\\blogapp\\blogapp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wez\\source\\repos\\blogapp\\wwwroot\\",
       "BasePath": "_content/blogapp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
