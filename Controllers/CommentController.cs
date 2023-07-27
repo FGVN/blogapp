@@ -13,10 +13,6 @@ namespace blogapp.Controllers
             commentService = jsonCommentService;
             logedService = jsonLogedService;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         public IActionResult addComment(Article article, Loged commentator, Comment toAdd)
         {

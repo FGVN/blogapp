@@ -2,6 +2,7 @@
 @model blogapp.Pages.testPageModel
 @{
 }
+
 <div class="card card-body" style="margin-bottom:10px;">
     <p style="display:none">@Model.updateViewcount(Model.articles[0]._id)</p>
     <h1>@Model.articles[0]._header</h1>
@@ -13,6 +14,19 @@
     <br>
     <input type="hidden" id="modelText" value="@Model.articles[0]._text" />
     <div id="text" style="height:auto;" class="card card-body"></div>
+</div>
+
+<div class="card card-body" style="margin-bottom:10px;">
+    <h1>Reactions</h1>
+    <form method="post" asp-page-handler="Update">
+
+        <input type="number" name="id" value="@Model.articles[0]._id" style="display:none;">
+        @*Show reactions as bubbles or circles with numbers and then push that data to the controller*@
+        <button type="submit" name="submitButton" value="1">&#x1F44D; @Model.reactions[0] @*And counter number with check if user reacted*@</button>
+
+        <!-- Second submit button -->
+        <button type="submit" name="submitButton" value="2">&#x1F44E; @Model.reactions[1]</button>
+    </form>
 </div>
 
 <div class="card card-body" style="margin-bottom:10px;">

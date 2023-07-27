@@ -1,0 +1,83 @@
+@page
+@model blogapp.Pages.testPageModel
+@{
+}
+<div class="card card-body" style="margin-bottom:10px;">
+    <p style="display:none">@Model.updateViewcount(Model.articles[2]._id)</p>
+    <h1>@Model.articles[2]._header</h1>
+    <p>By @Model.articles[2]._author - @Model.articles[2]._postDate</p>
+    <br>
+    <p>@Model.articles[2]._viewcount</p>
+    <br>
+    <h2>@Model.articles[2]._about</h2>
+    <br>
+    <input type="hidden" id="modelText" value="@Model.articles[2]._text" />
+    <div id="text" style="height:auto;" class="card card-body"></div>
+</div>
+
+<div class="card card-body" style="margin-bottom:10px;">
+    <h1>Leave a comment</h1>
+    <form method="post">
+
+        <input type="number" name="id" value="@Model.articles[2]._id" style="display:none;">
+        <p>Comment</p>
+        <input type="text" name="text">
+        <input type="submit">
+    </form>
+</div>
+
+@{
+    var coms = Model.comments.Where(x => x._article_id == Model.articles[2]._id);
+    foreach(var i in coms)
+    {
+    <div class="card card-body" style="margin-bottom:10px;">
+            <br>
+            <h2>@i._username</h2>
+            <p>@i._postDate</p>
+            <br>
+            <h2>@i._text</h2>
+            @foreach(var k in i._replies)
+            {
+            <div class="card card-body">
+                    <br>
+                    <h3>@k._username</h3>
+                    <p>@k._postDate</p>
+                    <br>
+                    <h3>@k._text</h3>
+            </div>
+            }
+
+            <form asp-page-handler="edit" method="post">
+                <input type="number" name="id" value="@i._article_id" style="display:none;">
+                <input type="datetime" name="postDate" value="@i._postDate" style="display:none;">
+                <input type="text" name="username" value="@i._username" style="display:none;">
+
+
+                <input type="number" name="reply_id" value="@Model.articles[2]._id" style="display:none;">
+                <h2>Reply</h2>
+                <input type="text" name="reply_text">
+                <input type="submit">
+            </form>
+    </div>
+    }
+}
+
+
+<style>
+    img {
+        max-width: 100%;
+    }
+</style>
+
+<script type="text/javascript">
+    window.onload = function() {
+      var text = document.getElementById("modelText").value;
+      document.getElementById("text").innerHTML += text;
+
+      
+          var map = {amp: '&', lt: '<', gt: '>', quot: '"', '#039': "'"}
+          var html = document.getElementById("text").innerHTML.replace(/&([^;]+);/g, (m, c) => map[c]);
+          document.getElementById("text").innerHTML = html;
+    }
+
+</script>

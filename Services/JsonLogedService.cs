@@ -7,16 +7,9 @@ namespace blogapp.Services
     public class JsonLogedService
     {
         public IWebHostEnvironment WebHostEnvironment { get; }
-        public JsonLogedService(IWebHostEnvironment webHostEnvironment)
-        {
-            WebHostEnvironment = webHostEnvironment;
-        }
+        public JsonLogedService(IWebHostEnvironment webHostEnvironment) => WebHostEnvironment = webHostEnvironment;
 
-        private string JsonFileName
-        {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "loged.json"); }
-        }
-
+        private string JsonFileName =>  Path.Combine(WebHostEnvironment.WebRootPath, "data", "loged.json"); 
         public List<Loged> GetLoged()
         {
             using var jsonFileReader = File.OpenText(JsonFileName);

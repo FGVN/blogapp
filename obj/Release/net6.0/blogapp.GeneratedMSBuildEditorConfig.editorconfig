@@ -5,72 +5,85 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = blogapp
 build_property.RootNamespace = blogapp
-build_property.ProjectDir = C:\Users\ForgiveNo\source\repos\blogapp\blogapp\
+build_property.ProjectDir = C:\Users\FGVN\Source\Repos\blogapp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\ForgiveNo\source\repos\blogapp\blogapp
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\FGVN\Source\Repos\blogapp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/Error.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/1ims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMWltcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/2Imgs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMkltZ3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/first-post.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/first-post.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmlyc3QtcG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/Index.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/Login.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/Logout.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/NewAdmin.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/NewAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3QWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/NewArticle.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/NewArticle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3QXJ0aWNsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/Privacy.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/second-post.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/second-post.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2Vjb25kLXBvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/Signup.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/testPage.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/testPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/_ViewImports.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/welcome-post.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcd2VsY29tZS1wb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/_ViewStart.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ForgiveNo/source/repos/blogapp/blogapp/Pages/Shared/_Layout.cshtml]
+[C:/Users/FGVN/Source/Repos/blogapp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5tt915d35k

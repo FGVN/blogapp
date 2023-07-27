@@ -10416,19 +10416,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wez\\.nuget\\packages\\": {}
+    "C:\\Users\\FGVN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wez\\source\\repos\\blogapp\\blogapp.csproj",
+      "projectUniqueName": "C:\\Users\\FGVN\\source\\repos\\blogapp\\blogapp.csproj",
       "projectName": "blogapp",
-      "projectPath": "C:\\Users\\wez\\source\\repos\\blogapp\\blogapp.csproj",
-      "packagesPath": "C:\\Users\\wez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wez\\source\\repos\\blogapp\\obj\\",
+      "projectPath": "C:\\Users\\FGVN\\source\\repos\\blogapp\\blogapp.csproj",
+      "packagesPath": "C:\\Users\\FGVN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\FGVN\\source\\repos\\blogapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\wez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\FGVN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10436,7 +10436,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10497,7 +10497,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -7,7 +7,7 @@
     "_text": "just a simple text for the first post",
     "_author": "FGVN",
     "_postDate": "2023-04-16T04:20:20.9456898+03:00",
-    "_viewcount": 27
+    "_viewcount": 48
   },
   {
     "_id": 2,
@@ -18,5 +18,25 @@
     "_author": "FGVN",
     "_postDate": "2023-04-16T04:20:35.5627565+03:00",
     "_viewcount": 33
+  },
+  {
+    "_id": 3,
+    "_header": "1Reaction test",
+    "_about": "Simple article to test out and add reactions",
+    "_title": "1Reaction",
+    "_text": "Lets see were to add the reactions\u003Cimg src=\u0027/data/pics/wallpaperflare-cropped.jpg\u0027/\u003E",
+    "_author": "FGVN",
+    "_postDate": "2023-07-27T02:10:35.2559438+03:00",
+    "_viewcount": 1
+  },
+  {
+    "_id": 4,
+    "_header": "2Reactiontest",
+    "_about": "2Reactiontest",
+    "_title": "2Reactiontest",
+    "_text": "2Reactiontest\u003Cbr\u003E",
+    "_author": "FGVN",
+    "_postDate": "2023-07-27T04:06:49.0247198+03:00",
+    "_viewcount": 84
   }
 ]
