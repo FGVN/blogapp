@@ -85,7 +85,6 @@
 
 <script type="text/javascript">
     window.onload = function() {
-      setCookie("art_id", @Model.articles[3]._id, 30);
       var text = document.getElementById("modelText").value;
       document.getElementById("text").innerHTML += text;
 
@@ -93,16 +92,6 @@
           var map = {amp: '&', lt: '<', gt: '>', quot: '"', '#039': "'"}
           var html = document.getElementById("text").innerHTML.replace(/&([^;]+);/g, (m, c) => map[c]);
           document.getElementById("text").innerHTML = html;
-    }
-
-    function setCookie(name, value, days) {
-        var expires = "";
-        if (days) {
-            var date = new Date();
-            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-            expires = "; expires=" + date.toUTCString();
-        }
-        document.cookie = name + "=" + (value || "") + expires + "; path=/";
     }
 
 </script>

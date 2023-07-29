@@ -38,15 +38,24 @@ namespace blogapp.Pages
         {
             articles = ArticleService.GetArticles().ToArray();
             comments = CommentService.GetComments().ToList();
+
+
+            //WORKING!
+            //
+            string pageName = RouteData.Values["page"].ToString();
+            Console.WriteLine(pageName);
+            reactions = reactionController.Display(
+                articles.FirstOrDefault(x => x._title == pageName.Replace("/", string.Empty))._id
+            );
             //Dont know how to get article id on Get
             //Console.WriteLine("AId:" + Request.Cookies["art_id"]);
-            if (Request.Cookies["art_id"] != null)
-            {
-                reactions = reactionController.Display(Convert.ToInt32(Request.Cookies["art_id"]));
-                Response.Cookies.Delete("art_id");
-            }
-            else
-                reactions = reactionController.Display(0);
+            //if (Request.Cookies["art_id"] != null)
+            //{
+            //    reactions = reactionController.Display(Convert.ToInt32(Request.Cookies["art_id"]));
+            //    Response.Cookies.Delete("art_id");
+            //}
+            //else
+            //    reactions = reactionController.Display(0);
         }
          
         public Article updateViewcount(int id)
