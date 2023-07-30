@@ -14,23 +14,32 @@ namespace blogapp.Controllers
 
         public JsonArticleService ArticleService { get; set; }
 
-        public IActionResult Post(
-            [FromQuery] string header, 
-            [FromQuery] string about, 
-            [FromQuery] string title, 
-            [FromQuery] string text, 
-            [FromQuery] string username)
+        public IActionResult AddArticle(Article toAdd)
         {
-            if (username == "" || header == "" || about == "" || title == "" || text == "")
+            if (toAdd._author == "" || toAdd._header == "" || toAdd._about == "" || toAdd._title == "" || toAdd._text == "")
             {
                 return Redirect("/NewArticle");
             }
-            if (ArticleService.AddArticle(new Article(header, about, title, text, username, DateTime.Now)))
+            if (ArticleService.AddArticle(toAdd))
             {
                 return Redirect("/Index");
             }
             return Redirect("/NewArticle#Error");
         }
+
+        public IActionResult EditArticle(Article toAdd)
+        {
+            if (toAdd._author == "" || toAdd._header == "" || toAdd._about == "" || toAdd._title == "" || toAdd._text == "")
+            {
+                return Redirect("/EditArticle#Error");
+            }
+            if (ArticleService.EditArticle(toAdd))
+            {
+                return Redirect("/Index");
+            }
+            return Redirect("/EditArticle#Error");
+        }
+        
 
         public IEnumerable<Article> GetArticles()
         {

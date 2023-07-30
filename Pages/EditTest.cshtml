@@ -1,19 +1,19 @@
-﻿@page
+@page
 @model blogapp.Pages.testPageModel
 @{
 }
-<button onclick="EditRedirect()">Edit</button>
+<button id="editRedirect">Edit</button>
 
 <div class="card card-body" style="margin-bottom:10px;">
-    <p style="display:none">@Model.updateViewcount(Model.articles[0]._id)</p>
-    <h1>@Model.articles[0]._header</h1>
-    <p>By @Model.articles[0]._author - @Model.articles[0]._postDate</p>
+    <p style="display:none">@Model.updateViewcount(Model.articles[4]._id)</p>
+    <h1>@Model.articles[4]._header</h1>
+    <p>By @Model.articles[4]._author - @Model.articles[4]._postDate</p>
     <br>
-    <p>@Model.articles[0]._viewcount</p>
+    <p>@Model.articles[4]._viewcount</p>
     <br>
-    <h2>@Model.articles[0]._about</h2>
+    <h2>@Model.articles[4]._about</h2>
     <br>
-    <input type="hidden" id="modelText" value="@Model.articles[0]._text" />
+    <input type="hidden" id="modelText" value="@Model.articles[4]._text" />
     <div id="text" style="height:auto;" class="card card-body"></div>
 </div>
 
@@ -21,7 +21,7 @@
     <h1>Reactions</h1>
     <form method="post" asp-page-handler="Update">
 
-        <input type="number" name="id" value="@Model.articles[0]._id" style="display:none;">
+        <input type="number" name="id" value="@Model.articles[4]._id" style="display:none;">
         @*Show reactions as bubbles or circles with numbers and then push that data to the controller*@
         <button type="submit" name="submitButton" value="1">&#x1F44D; @Model.reactions[0] @*And counter number with check if user reacted*@</button>
 
@@ -33,7 +33,7 @@
     <h1>Leave a comment</h1>
     <form method="post">
 
-        <input type="number" name="id" value="@Model.articles[0]._id" style="display:none;">
+        <input type="number" name="id" value="@Model.articles[4]._id" style="display:none;">
         <p>Comment</p>
         <input type="text" name="text">
         <input type="submit">
@@ -41,7 +41,7 @@
 </div>
 
 @{
-    var coms = Model.comments.Where(x => x._article_id == Model.articles[0]._id);
+    var coms = Model.comments.Where(x => x._article_id == Model.articles[4]._id);
     foreach(var i in coms)
     {
     <div class="card card-body" style="margin-bottom:10px;">
@@ -67,7 +67,7 @@
                 <input type="text" name="username" value="@i._username" style="display:none;">
 
 
-                <input type="number" name="reply_id" value="@Model.articles[0]._id" style="display:none;">
+                <input type="number" name="reply_id" value="@Model.articles[4]._id" style="display:none;">
                 <h2>Reply</h2>
                 <input type="text" name="reply_text">
                 <input type="submit">
@@ -94,9 +94,19 @@
           document.getElementById("text").innerHTML = html;
     }
 
-    function EditRedirect()
-    {
-        alert("Redirect");
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
     }
+
+    document.getElementById("editRedirect").addEventListener("click", function () {
+        setCookie("titleToEdit", '@Model.articles[4]._title', 30);
+        window.location.href = "/EditArticle";
+    });
 
 </script>

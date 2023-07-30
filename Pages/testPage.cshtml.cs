@@ -39,23 +39,11 @@ namespace blogapp.Pages
             articles = ArticleService.GetArticles().ToArray();
             comments = CommentService.GetComments().ToList();
 
-
-            //WORKING!
-            //
             string pageName = RouteData.Values["page"].ToString();
             Console.WriteLine(pageName);
             reactions = reactionController.Display(
                 articles.FirstOrDefault(x => x._title == pageName.Replace("/", string.Empty))._id
             );
-            //Dont know how to get article id on Get
-            //Console.WriteLine("AId:" + Request.Cookies["art_id"]);
-            //if (Request.Cookies["art_id"] != null)
-            //{
-            //    reactions = reactionController.Display(Convert.ToInt32(Request.Cookies["art_id"]));
-            //    Response.Cookies.Delete("art_id");
-            //}
-            //else
-            //    reactions = reactionController.Display(0);
         }
          
         public Article updateViewcount(int id)
@@ -88,7 +76,6 @@ namespace blogapp.Pages
             var toAddDate = Convert.ToDateTime(Request.Form["postDate"]);
 
 
-            //Comment toAdd = new Comment( 0, "", "");
             foreach(var i in CommentService.GetComments().ToList().
                 Where(x => x._username == Request.Form["username"]))
             {
@@ -116,7 +103,6 @@ namespace blogapp.Pages
 
         public IActionResult OnPostUpdate()
         {
-            //Absorb data from forms in and put them into controller
             return reactionController.React(new Reaction(
                 Convert.ToInt32(Request.Form["id"]),
                 Request.Cookies["username"],

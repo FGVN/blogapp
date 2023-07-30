@@ -1,0 +1,111 @@
+﻿@page
+@model blogapp.Pages.EditArticle
+@{
+}
+
+
+<h1>Edit article</h1>
+
+<form method="post" onload="checkCookies();">
+    <input type="text" name="header" placeholder="Header" value=@Model.toEdit._header>
+    <input type="text" name="about" placeholder="About" value=@Model.toEdit._about>
+    <br>
+    <p>Article body:</p>
+    <div name="content" contenteditable="true" style="height:auto; border-color:black; border-width:2px;">
+        @Model.toEdit._text
+    </div>
+    <input type="hidden" name="text" contenteditable="true">
+    <br>
+    <button type="submit" onclick="fromText();">Finish editing article</button>
+</form>
+
+<br>
+<form asp-page-handler="edit" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="imageFile">Image File:</label>
+        <input type="file" id="imageFile" name="ImageFile" class="form-control-file" accept=".jpg,.jpeg,.png" />
+        <span asp-validation-for="ImageFile" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary" onclick="conservateValues();">Upload</button>
+</form>
+
+
+<style>
+    img {
+        max-width: 100%;
+    }
+</style>
+
+<script>
+
+    var el = document.getElementsByName("content")[0]
+    el.addEventListener('blur', function () {
+        //putting contenteditable div content to text
+        document.getElementsByName("text")[0].value = document.getElementsByName("content")[0].innerHTML.toString();
+
+        var map = { amp: '&', lt: '<', gt: '>', quot: '"', '#039': "'" }
+        var html = this.innerHTML.replace(/&([^;]+);/g, (m, c) => map[c]);
+        this.innerHTML = html;
+    });
+    document.getElementById('imageFile').onchange = function () {
+        setCookie("tmpImg", this.value.split('\\')[2], 1);
+    };
+
+
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
+    }
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {
+        document.cookie = name + '=; Max-Age=-99999999;';
+    }
+
+
+    window.onload = function checkCookies() {
+        console.log(getCookie("tmpImg"));
+        if (getCookie("tmpHeader") != null) {
+            document.getElementsByName("header")[0].value = getCookie("tmpHeader");
+            eraseCookie("tmpHeader");
+        }
+        if (getCookie("tmpAbout") != null) {
+            document.getElementsByName("about")[0].value = getCookie("tmpAbout");
+            eraseCookie("tmpAbout");
+        }
+        if (getCookie("tmpTitle") != null) {
+            document.getElementsByName("title")[0].value = getCookie("tmpTitle");
+            eraseCookie("tmpTitle");
+        }
+        if (getCookie("tmpText") != null) {
+            document.getElementsByName("text")[0].value = getCookie("tmpText");
+            document.getElementsByName("content")[0].innerHTML = document.getElementsByName("text")[0].value;
+            eraseCookie("tmpText");
+        }
+        if (getCookie("tmpImg") != null) {
+            document.getElementsByName("text")[0].value += ("<img src='/data/pics/" + getCookie("tmpImg") + "'/>");
+            document.getElementsByName("content")[0].innerHTML = document.getElementsByName("text")[0].value;
+            console.log(document.getElementsByName("text")[0].value);
+            eraseCookie("tmpImg");
+        }
+    }
+    function conservateValues() {
+        setCookie("tmpHeader", document.getElementsByName("header")[0].value, 1);
+        setCookie("tmpAbout", document.getElementsByName("about")[0].value, 1);
+        setCookie("tmpTitle", document.getElementsByName("title")[0].value, 1);
+        setCookie("tmpText", document.getElementsByName("text")[0].value, 1);
+    }
+</script>

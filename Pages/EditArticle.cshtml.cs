@@ -1,31 +1,32 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.ComponentModel.DataAnnotations;
+using blogapp.Models;
 using blogapp.Controllers;
 using blogapp.Services;
-using blogapp.Models;
 
 namespace blogapp.Pages
 {
-    public class NewArticle : PageModel
+    public class EditArticle : PageModel
     {
         private readonly ILogger<IndexModel> _logger;
 
         public JsonArticleService ArticleService;
         public ArticleController articleController;
-        public NewArticle(ILogger<IndexModel> logger,
+
+        public Article toEdit { get; set; }
+
+        [BindProperty]
+        public IFormFile ImageFile { get; set; }
+        public EditArticle(ILogger<IndexModel> logger,
                     JsonArticleService articleservice)
         {
             _logger = logger;
             ArticleService = articleservice;
             articleController = new ArticleController(ArticleService);
         }
-
-        [BindProperty]
-        public IFormFile ImageFile { get; set; }
-
         public void OnGet()
         {
+            toEdit = articleController.GetArticles().First(x => x._title == Request.Cookies["titleToEdit"]);
         }
 
         public async Task<IActionResult> OnPostEdit()
@@ -49,16 +50,16 @@ namespace blogapp.Pages
 
                 _logger.LogInformation($"Image '{fileName}' uploaded successfully.");
                 //Response.Cookies.Append("tmpImg", fileName, new CookieOptions());
-                return new RedirectToPageResult("/NewArticle");
+                return new RedirectToPageResult("/EditArticle");
             }
 
             _logger.LogInformation($"No image file provided.");
-            return new RedirectToPageResult("/NewArticle");
+            return new RedirectToPageResult("/EditArticle");
         }
-
 
         public IActionResult OnPost()
         {
+
             string header = Request.Form["header"];
 
             string about = Request.Form["about"];
@@ -69,10 +70,8 @@ namespace blogapp.Pages
 
             var username = Request.Cookies["username"];
 
-
-            return articleController.AddArticle(new Article(header, about, title, text, username, DateTime.Now));
-
+            //???Datetime
+            return articleController.EditArticle(new Article(header, about, title, text, username, DateTime.Now));
         }
     }
 }
-

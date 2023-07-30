@@ -17,7 +17,7 @@ builder.Services.AddTransient<LoginController>();
 builder.Services.AddTransient<JsonLogedService>();
 builder.Services.AddTransient<JsonArticleService>();
 builder.Services.AddTransient<JsonCommentService>();
-builder.Services.AddTransient <JsonReactionService>();
+builder.Services.AddTransient<JsonReactionService>();
 
 builder.Services.AddDistributedMemoryCache();
 

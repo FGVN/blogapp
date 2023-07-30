@@ -56,12 +56,6 @@ namespace blogapp.Services
 
                 try
                 {
-                    //System.IO.File.Copy(sourceCS, destinationCS); 
-
-                    /*string text = File.ReadAllText(destinationCS);
-                    text = text.Replace("[0]", "[" + (toAdd._id-1) +  "]");
-                    File.WriteAllText(destinationCS, text);*/
-
                     System.IO.File.Copy(sourceCSHTML, destinationCSHTML);
 
                     var text = File.ReadAllText(destinationCSHTML);
@@ -89,6 +83,38 @@ namespace blogapp.Services
                 return true;
             }
             return false;
+        }
+
+        public bool EditArticle(Article toEdit)
+        {
+            var articles = GetArticles();
+
+            int old_id = articles.First(x => x._title == toEdit._title)._id;
+            int old_viewcount = articles.First(x => x._title == toEdit._title)._viewcount;
+            DateTime old_date = articles.First(x => x._title == toEdit._title)._postDate;
+
+            articles[articles.IndexOf(articles.First(x => x._title == toEdit._title))] = toEdit;
+
+            //Putting some of the old values that has change by creating another instance of Article
+            articles[articles.IndexOf(articles.First(x => x._title == toEdit._title))]._id = old_id;
+
+            articles[articles.IndexOf(articles.First(x => x._title == toEdit._title))]._viewcount = old_viewcount;
+
+            articles[articles.IndexOf(articles.First(x => x._title == toEdit._title))]._postDate = old_date;
+
+            File.WriteAllText(JsonFileName, string.Empty);
+
+            using var outputStream = File.OpenWrite(JsonFileName);
+
+            JsonSerializer.Serialize<IEnumerable<Article>>(
+                 new Utf8JsonWriter(outputStream, new JsonWriterOptions
+                 {
+                     SkipValidation = true,
+                     Indented = true
+                 }),
+                articles
+            );
+            return true;
         }
 
         public void IncreaseView(int id)
