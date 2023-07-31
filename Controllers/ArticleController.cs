@@ -39,6 +39,15 @@ namespace blogapp.Controllers
             }
             return Redirect("/EditArticle#Error");
         }
+
+        public IActionResult DeleteArticle(string titleToDelete)
+        {
+            if (ArticleService.DeleteArticle(titleToDelete))
+            {
+                return Redirect("/");
+            }
+            return Redirect("/" + titleToDelete);
+        }
         
 
         public IEnumerable<Article> GetArticles()

@@ -117,6 +117,36 @@ namespace blogapp.Services
             return true;
         }
 
+        public bool DeleteArticle(string toDeleteTitle)
+        {
+            var articles = GetArticles();
+
+            if(articles.Where(x => x._title == toDeleteTitle).Any())
+            {
+                articles.Remove(articles.First(x => x._title == toDeleteTitle));
+
+                File.WriteAllText(JsonFileName, string.Empty);
+
+                string destinationCSHTML = Path.Combine(WebHostEnvironment.ContentRootPath, "Pages", toDeleteTitle + ".cshtml");
+
+                if(File.Exists(destinationCSHTML))
+                    File.Delete(destinationCSHTML);
+
+                using var outputStream = File.OpenWrite(JsonFileName);
+
+                JsonSerializer.Serialize<IEnumerable<Article>>(
+                     new Utf8JsonWriter(outputStream, new JsonWriterOptions
+                     {
+                         SkipValidation = true,
+                         Indented = true
+                     }),
+                    articles
+                );
+                return true;
+            }
+            return false;
+        }
+
         public void IncreaseView(int id)
         {
             var articles = GetArticles();
@@ -137,47 +167,6 @@ namespace blogapp.Services
             );
         }
 
-        public void AddComment(Comment toAdd, Article article)
-        {
-            /*IEnumerable<Article> articles = GetArticles();
-
-            var query = articles.First(x => x._id == article._id);
-
-            var comments = query.ToList();
-            comments.Add(toAdd);
-            query._comments.ToArray();
-
-            using (var outputStream = File.OpenWrite(JsonFileName))
-            {
-                JsonSerializer.Serialize<IEnumerable<Article>>(
-                    new Utf8JsonWriter(outputStream, new JsonWriterOptions
-                    {
-                        SkipValidation = true,
-                        Indented = true
-                    }),
-                    articles
-                );
-            }*/
-        }
-
-        public void AddReaction(Article toReact, Reaction reaction)
-        {
-            /*var articles = GetArticles();
-            var query = articles.First(x => x == toReact);
-            query._reactions.Add(reaction);
-
-            using (var outputStream = File.OpenWrite(JsonFileName))
-            {
-                JsonSerializer.Serialize<IEnumerable<Article>>(
-                    new Utf8JsonWriter(outputStream, new JsonWriterOptions
-                    {
-                        SkipValidation = true,
-                        Indented = true
-                    }),
-                    articles
-                );
-            }*/
-        }
 
         public void SaveArticles(IEnumerable<Article> articles)
         {

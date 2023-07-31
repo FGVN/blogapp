@@ -15,6 +15,7 @@
         @Model.toEdit._text
     </div>
     <input type="hidden" name="text" contenteditable="true">
+    <input type="hidden" name="title" value ="@Model.toEdit._title">
     <br>
     <button type="submit" onclick="fromText();">Finish editing article</button>
 </form>
@@ -100,6 +101,10 @@
             document.getElementsByName("content")[0].innerHTML = document.getElementsByName("text")[0].value;
             console.log(document.getElementsByName("text")[0].value);
             eraseCookie("tmpImg");
+        }
+
+        if(getCookie("titleToEdit") != null){
+            eraseCookie("titleToEdit");
         }
     }
     function conservateValues() {

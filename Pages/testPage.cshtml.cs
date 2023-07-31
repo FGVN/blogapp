@@ -1,10 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.ComponentModel.DataAnnotations;
 using blogapp.Controllers;
 using blogapp.Services;
 using blogapp.Models;
-using System.Net;
 
 namespace blogapp.Pages
 {
@@ -40,9 +38,10 @@ namespace blogapp.Pages
             comments = CommentService.GetComments().ToList();
 
             string pageName = RouteData.Values["page"].ToString();
-            Console.WriteLine(pageName);
+            Console.WriteLine("PageName: " + pageName.Replace("/", string.Empty).Replace("-", " "));
+
             reactions = reactionController.Display(
-                articles.FirstOrDefault(x => x._title == pageName.Replace("/", string.Empty))._id
+                articles.FirstOrDefault(x => x._title == pageName.Replace("/", string.Empty).Replace("-", " "))._id
             );
         }
          
@@ -107,6 +106,13 @@ namespace blogapp.Pages
                 Convert.ToInt32(Request.Form["id"]),
                 Request.Cookies["username"],
                 Convert.ToInt32(Request.Form["SubmitButton"])));
+        }
+        
+        public IActionResult OnPostDelete()
+        {
+            return articleController.DeleteArticle(
+                RouteData.Values["page"].ToString().Replace("/", string.Empty).Replace("-", " ")
+            );
         }
     }
 }

@@ -26,7 +26,12 @@ namespace blogapp.Pages
         }
         public void OnGet()
         {
-            toEdit = articleController.GetArticles().First(x => x._title == Request.Cookies["titleToEdit"]);
+            if(Request.Cookies["idToEdit"] != null)
+            {
+                Console.WriteLine("Cookie is not empty");
+            }
+            Console.WriteLine("Edit title: " + Request.Cookies["idToEdit"]);
+            toEdit = articleController.GetArticles().First(x => x._id == Convert.ToInt32(Request.Cookies["idToEdit"]));
         }
 
         public async Task<IActionResult> OnPostEdit()

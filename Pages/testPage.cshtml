@@ -2,11 +2,18 @@
 @model blogapp.Pages.testPageModel
 @{
 }
-<button onclick="EditRedirect()">Edit</button>
+
 
 <div class="card card-body" style="margin-bottom:10px;">
     <p style="display:none">@Model.updateViewcount(Model.articles[0]._id)</p>
     <h1>@Model.articles[0]._header</h1>
+    @if (Request.Cookies["isAdmin"] == "True")
+    {
+        <button id="editRedirect">Edit</button>
+        <form method="post" asp-page-handler="Delete">
+            <button type="submit" name="submitButton">Delete</button>
+        </form>
+    }
     <p>By @Model.articles[0]._author - @Model.articles[0]._postDate</p>
     <br>
     <p>@Model.articles[0]._viewcount</p>
@@ -94,9 +101,20 @@
           document.getElementById("text").innerHTML = html;
     }
 
-    function EditRedirect()
-    {
-        alert("Redirect");
+
+    function setCookie(name, value, days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "") + expires + "; path=/";
     }
+
+    document.getElementById("editRedirect").addEventListener("click", function () {
+        setCookie("idToEdit", '@Model.articles[4]._id', 30);
+        window.location.href = "/EditArticle";
+    });
 
 </script>
