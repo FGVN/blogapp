@@ -6,12 +6,12 @@
 <h1>Create new article</h1>
 
 <form method="post" onload="checkCookies();">
-    <input type="text" name="header" placeholder="Header"> 
-    <input type="text" name="about" placeholder="About"> 
-    <input type="text" name="title" placeholder="Title"> 
+    <input type="text" name="header" placeholder="Header" id="Header" value="@Model.tempArticle._header"> 
+    <input type="text" name="about" placeholder="About" id="About" value="@Model.tempArticle._about"> 
+    <input type="text" name="title" placeholder="Title" id ="Title" value="@Model.tempArticle._title"> 
     <br>
     <p>Article body:</p>
-    <div name="content" contenteditable="true" style="height:auto; border-color:black; border-width:2px;">
+    <div name="content" contenteditable="true" id="Text" style="height:auto; border-color:black; border-width:2px;" >
         <i>Start Writing here</i>
     </div>
     <input type="hidden" name="text" contenteditable="true"> 
@@ -26,6 +26,14 @@
         <input type="file" id="imageFile" name="ImageFile" class="form-control-file" accept=".jpg,.jpeg,.png" />
         <span asp-validation-for="ImageFile" class="text-danger"></span>
     </div>
+
+
+    <input type="hidden" name="header" id="conservateHeader">
+    <input type="hidden" name="about" id="conservateAbout">
+    <input type="hidden" name="title" id="conservateTitle">
+    <input type="hidden" name="text" id="conservateText">
+
+
     <button type="submit" class="btn btn-primary" onclick="conservateValues();">Upload</button>
 </form>
 
@@ -77,35 +85,22 @@
 
 
         window.onload = function checkCookies() {
-            console.log(getCookie("tmpImg"));
-            if (getCookie("tmpHeader") != null) {
-                document.getElementsByName("header")[0].value = getCookie("tmpHeader");
-                eraseCookie("tmpHeader");
-            }
-            if (getCookie("tmpAbout") != null) {
-                document.getElementsByName("about")[0].value = getCookie("tmpAbout");
-                eraseCookie("tmpAbout");
-            }
-            if (getCookie("tmpTitle") != null) {
-                document.getElementsByName("title")[0].value = getCookie("tmpTitle");
-                eraseCookie("tmpTitle");
-            }
-            if (getCookie("tmpText") != null) {
-                document.getElementsByName("text")[0].value = getCookie("tmpText");
-                document.getElementsByName("content")[0].innerHTML = document.getElementsByName("text")[0].value;
-                eraseCookie("tmpText");
-            }
             if (getCookie("tmpImg") != null) {
-                document.getElementsByName("text")[0].value += ("<img src='/data/pics/" + getCookie("tmpImg") + "'/>");
+                document.getElementsByName("text")[0].value += "@Model.tempArticle._text"+ ("<img src='/data/pics/" + getCookie("tmpImg") + "'/>");
+
                 document.getElementsByName("content")[0].innerHTML = document.getElementsByName("text")[0].value;
-                console.log(document.getElementsByName("text")[0].value);
+
                 eraseCookie("tmpImg");
+            }
+
+            if(getCookie("tempTitle") != null){
+                eraseCookie("tempTitle");
             }
         }
         function conservateValues(){
-            setCookie("tmpHeader", document.getElementsByName("header")[0].value, 1);
-            setCookie("tmpAbout", document.getElementsByName("about")[0].value, 1);
-            setCookie("tmpTitle", document.getElementsByName("title")[0].value, 1);
-            setCookie("tmpText", document.getElementsByName("text")[0].value, 1);
+            document.getElementById("conservateHeader").value = document.getElementById("Header").value;
+            document.getElementById("conservateTitle").value = document.getElementById("Title").value;
+            document.getElementById("conservateAbout").value = document.getElementById("About").value;
+            document.getElementById("conservateText").value = document.getElementById("Text").innerHTML.toString();
         }
 </script>
