@@ -32,6 +32,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMlJlYWN0aW9udGVzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/FGVN/source/repos/blogapp/Pages/Delete-article.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlLWFydGljbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/FGVN/source/repos/blogapp/Pages/EditArticle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFydGljbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,8 +48,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmlyc3QtcG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/FGVN/source/repos/blogapp/Pages/Funny-title.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVubnktdGl0bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FGVN/source/repos/blogapp/Pages/Ill-delete-it.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWxsLWRlbGV0ZS1pdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/FGVN/source/repos/blogapp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FGVN/source/repos/blogapp/Pages/Lipsum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlwc3VtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FGVN/source/repos/blogapp/Pages/Login.cshtml]
@@ -86,6 +102,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/FGVN/source/repos/blogapp/Pages/testPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/FGVN/source/repos/blogapp/Pages/title-title.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGl0bGUtdGl0bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FGVN/source/repos/blogapp/Pages/welcome-post.cshtml]

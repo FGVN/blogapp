@@ -26,11 +26,38 @@ namespace blogapp.Pages
         }
         public void OnGet()
         {
-            toEdit = articleController.GetArticles().First(x => x._id == Convert.ToInt32(Request.Cookies["idToEdit"]));
+
+            if(Request.Cookies["idToEdit"] != null)
+                toEdit = articleController.GetArticles().First(x => x._id == Convert.ToInt32(Request.Cookies["idToEdit"]));
+            if (Request.Cookies["tempTitle"] != null)
+            {
+                Console.WriteLine("Title" + Request.Cookies["tempTitle"]);
+                toEdit = articleController.GetArticles().First(x => x._title == Request.Cookies["tempTitle"]);
+            }
         }
 
         public async Task<IActionResult> OnPostEdit()
         {
+            string header = Request.Form["header"];
+
+            string about = Request.Form["about"];
+
+            string title = Request.Form["title"];
+
+            Console.WriteLine("OnPost title: " + title);
+
+            string text = Request.Form["text"];
+
+            var username = Request.Cookies["username"];
+
+            articleController.AddArticle(new Article(header, about, title, text, username, DateTime.Now));
+
+            var cookieOptions = new CookieOptions();
+
+            cookieOptions.Path = "/";
+
+            Response.Cookies.Append("tempTitle", Request.Form["title"], cookieOptions);
+
             if (ImageFile != null && ImageFile.Length > 0)
             {
                 var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "data", "pics");
@@ -66,9 +93,13 @@ namespace blogapp.Pages
 
             string title = Request.Form["title"];
 
+            title = title.Split(',')[0];
+
             string text = Request.Form["text"];
 
             var username = Request.Cookies["username"];
+
+            Console.WriteLine("To save title:" + title);
 
             //???Datetime
             return articleController.EditArticle(new Article(header, about, title, text, username, DateTime.Now));

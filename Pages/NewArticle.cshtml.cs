@@ -55,8 +55,6 @@ namespace blogapp.Pages
 
             articleController.AddArticle(new Article(header, about, title, text, username, DateTime.Now));
 
-            var articles = articleController.GetArticles();
-
             var cookieOptions = new CookieOptions();
 
             cookieOptions.Path = "/";
