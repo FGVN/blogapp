@@ -13,6 +13,9 @@ public class Login : PageModel
     public JsonLogedService LogedService;
     public LoginController loginController;
 
+    /// <summary>
+    /// Configuring controllers and services
+    /// </summary>
     public Login(ILogger<IndexModel> logger,
                 JsonLogedService logedservice)
     {
@@ -21,23 +24,24 @@ public class Login : PageModel
         loginController = new LoginController(LogedService);
     }
 
-    public void OnGet()
-    {
-    }
-
+    /// <summary>
+    /// Getting login and password from form, checking if logincontroller login method returned not null user, adding cookies
+    /// </summary>
+    /// <returns>Redirect to Index if user has been loged in, Login#Error if not</returns>
     public IActionResult OnPost()
     {
         string login = Request.Form["login"];
 
         string password = Request.Form["password"];
 
+        //Hashing password value
         password = HashController.HashString(password);
 
         Loged result = loginController.Login(login, password);
 
         if(result._login != null)
         {
-
+            //Adding returned user data to cookie
             var cookieOptions = new CookieOptions();
 
             cookieOptions.Path = "/";

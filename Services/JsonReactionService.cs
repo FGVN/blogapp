@@ -1,17 +1,19 @@
 ﻿using blogapp.Models;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
 namespace blogapp.Services
 {
+    /// <summary>
+    /// Service that operates with reaction json data
+    /// </summary>
     public class JsonReactionService
     {
         public IWebHostEnvironment WebHostEnvironment { get; }
         public JsonReactionService(IWebHostEnvironment webHostEnvironment) => WebHostEnvironment = webHostEnvironment;
-        private string JsonFileName
-        {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "data", "reactions.json"); }
-        }
+        /// <summary>
+        /// Configuring path to json file with reactions data
+        /// </summary>
+        private string JsonFileName => Path.Combine(WebHostEnvironment.WebRootPath, "data", "reactions.json");
         public List<Reaction> GetReactions()
         {
             using var jsonFileReader = File.OpenText(JsonFileName);

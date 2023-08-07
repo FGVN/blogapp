@@ -25,6 +25,9 @@ namespace blogapp.Pages
         [BindProperty]
         public IFormFile ImageFile { get; set; }
 
+        /// <summary>
+        /// Checks for cookie with temp article title, setting its value to tempArticle
+        /// </summary>
         public void OnGet()
         {
             //Check for temp article id in cookies and put values if its not empty and delete right after
@@ -35,11 +38,13 @@ namespace blogapp.Pages
                 articleController.DeleteArticle(tempArticle._title);
             }
             else
-            {
                 tempArticle = new Article("", "", "", "", "", DateTime.Now);
-            }
         }
 
+        /// <summary>
+        /// Creating new article with current values, setting cookie and adding image
+        /// </summary>
+        /// <returns>Redirect to NewArticle</returns>
         public async Task<IActionResult> OnPostEdit()
         {
             //Create temp article with current values, set cookie with temp article id
@@ -88,6 +93,10 @@ namespace blogapp.Pages
             return new RedirectToPageResult("/NewArticle");
         }
 
+        /// <summary>
+        /// Getting values from form and putting them into controller
+        /// </summary>
+        /// <returns>AddArticle controller result</returns>
         public IActionResult OnPost()
         {
             string header = Request.Form["header"];

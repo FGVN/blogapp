@@ -1,5 +1,8 @@
 ﻿namespace blogapp.Models
 {
+    /// <summary>
+    /// Class that represents articles
+    /// </summary>
     public class Article
     {
         public static int _amount = 0;
@@ -12,7 +15,15 @@
         public DateTime _postDate { get; set; }
         public int _viewcount { get; set; }
 
-
+        /// <summary>
+        /// Constructor for an article class
+        /// </summary>
+        /// <param name="_header">Articles header</param>
+        /// <param name="_about">Articles about</param>
+        /// <param name="_title">Articles title that will be used as page name</param>
+        /// <param name="_text">Text of an article</param>
+        /// <param name="_author">Username of the user who created article</param>
+        /// <param name="_postDate">Date of article posting</param>
         public Article(string _header, string _about, string _title, string _text, string _author, DateTime _postDate)
         {
             _amount = System.Threading.Interlocked.Increment(ref _amount);

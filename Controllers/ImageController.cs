@@ -2,19 +2,23 @@
 
 namespace blogapp.Controllers
 {
+    /// <summary>
+    /// Controller that is responsible for image uploading process
+    /// </summary>
     public class ImageController : Controller
     {
         private readonly IWebHostEnvironment _hostingEnvironment;
 
-        public ImageController(IWebHostEnvironment hostingEnvironment)
-        {
-            _hostingEnvironment = hostingEnvironment;
-        }
+        /// <summary>
+        /// Configuring webhostenvironment
+        /// </summary>
+        public ImageController(IWebHostEnvironment hostingEnvironment) => _hostingEnvironment = hostingEnvironment;
 
         [HttpPost]
         public async Task<IActionResult> UploadImage()
         {
-            var file = Request.Form.Files[0]; // Assuming only one file is being uploaded
+            // Assuming only one file is being uploaded
+            var file = Request.Form.Files[0]; 
 
             if (file != null && file.Length > 0)
             {

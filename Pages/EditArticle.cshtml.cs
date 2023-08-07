@@ -17,6 +17,10 @@ namespace blogapp.Pages
 
         [BindProperty]
         public IFormFile ImageFile { get; set; }
+
+        /// <summary>
+        /// Configuring controllers and services
+        /// </summary>
         public EditArticle(ILogger<IndexModel> logger,
                     JsonArticleService articleservice)
         {
@@ -24,6 +28,9 @@ namespace blogapp.Pages
             ArticleService = articleservice;
             articleController = new ArticleController(ArticleService);
         }
+        /// <summary>
+        /// Checking cookies values on load and adding value to toEdit Article field
+        /// </summary>
         public void OnGet()
         {
 
@@ -36,15 +43,18 @@ namespace blogapp.Pages
             }
         }
 
+        /// <summary>
+        /// Conservates current article values, setting up a cookie with its name and adding image
+        /// </summary>
+        /// <returns>Redirects on EditArticle page</returns>
         public async Task<IActionResult> OnPostEdit()
         {
+            //Saving current values into new Article 
             string header = Request.Form["header"];
 
             string about = Request.Form["about"];
 
             string title = Request.Form["title"];
-
-            Console.WriteLine("OnPost title: " + title);
 
             string text = Request.Form["text"];
 
@@ -52,12 +62,14 @@ namespace blogapp.Pages
 
             articleController.AddArticle(new Article(header, about, title, text, username, DateTime.Now));
 
+            //Setting a cookie with an articles name
             var cookieOptions = new CookieOptions();
 
             cookieOptions.Path = "/";
 
             Response.Cookies.Append("tempTitle", Request.Form["title"], cookieOptions);
 
+            //Adding image
             if (ImageFile != null && ImageFile.Length > 0)
             {
                 var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "data", "pics");
@@ -76,7 +88,6 @@ namespace blogapp.Pages
                 }
 
                 _logger.LogInformation($"Image '{fileName}' uploaded successfully.");
-                //Response.Cookies.Append("tmpImg", fileName, new CookieOptions());
                 return new RedirectToPageResult("/EditArticle");
             }
 
@@ -84,6 +95,10 @@ namespace blogapp.Pages
             return new RedirectToPageResult("/EditArticle");
         }
 
+        /// <summary>
+        /// Gets current values from form and sends it to controller
+        /// </summary>
+        /// <returns>Controllers EditArticle result</returns>
         public IActionResult OnPost()
         {
 
@@ -98,8 +113,6 @@ namespace blogapp.Pages
             string text = Request.Form["text"];
 
             var username = Request.Cookies["username"];
-
-            Console.WriteLine("To save title:" + title);
 
             //???Datetime
             return articleController.EditArticle(new Article(header, about, title, text, username, DateTime.Now));

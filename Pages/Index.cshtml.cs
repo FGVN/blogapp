@@ -17,6 +17,10 @@ public class IndexModel : PageModel
     public IEnumerable<Article> articles;
 
     public Loged currentUser;
+
+    /// <summary>
+    /// Configuring services and controllers
+    /// </summary>
     public IndexModel(ILogger<IndexModel> logger,
                     JsonLogedService logedservice,
                     JsonArticleService articleservice)
@@ -28,8 +32,8 @@ public class IndexModel : PageModel
         articleController = new ArticleController(ArticleService);
     }
 
-    public void OnGet()
-    {
-        articles = articleController.GetArticles().Reverse();
-    }
+    /// <summary>
+    /// On page loading getting all articles to display
+    /// </summary>
+    public void OnGet() => articles = articleController.GetArticles().Reverse();
 }

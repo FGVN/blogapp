@@ -12,7 +12,10 @@ namespace blogapp.Pages
 
         public JsonLogedService LogedService;
         public LoginController loginController;
-
+        
+        /// <summary>
+        /// Configuring controllers and services
+        /// </summary>
         public NewAdmin(ILogger<IndexModel> logger,
                     JsonLogedService logedservice)
         {
@@ -21,22 +24,16 @@ namespace blogapp.Pages
             loginController = new LoginController(LogedService);
         }
 
-        public void OnGet()
-        {
-        }
-
+        /// <summary>
+        /// Gets value from form and passes it to the controller to add admin
+        /// </summary>
+        /// <returns>Redirect to Index if admin has been added, NewAdmin#Error if not</returns>
         public IActionResult OnPost()
         {
             string username = Request.Form["username"];
 
-
-
             if (loginController.AddAdmin(username))
-            {
                 return Redirect("/Index");
-            }
-
-
             return Redirect("/NewAdmin#Error");
         }
     }

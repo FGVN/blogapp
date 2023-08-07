@@ -14,6 +14,9 @@ namespace blogapp.Pages
         public JsonLogedService LogedService;
         public LoginController loginController;
 
+        /// <summary>
+        /// Configuring ontrollers and services
+        /// </summary>
         public Signup(ILogger<IndexModel> logger,
                     JsonLogedService logedservice)
         {
@@ -22,10 +25,10 @@ namespace blogapp.Pages
             loginController = new LoginController(LogedService);
         }
 
-        public void OnGet()
-        {
-        }
-
+        /// <summary>
+        /// Getting values from forms and putting into controller
+        /// </summary>
+        /// <returns>Login controller result</returns>
         public IActionResult OnPost()
         {
             string username = Request.Form["username"];
@@ -34,6 +37,7 @@ namespace blogapp.Pages
 
             string password = Request.Form["password"];
 
+            //Hashing password value
             password = HashController.HashString(password);
 
             var cookieOptions = new CookieOptions();

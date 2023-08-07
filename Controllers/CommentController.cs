@@ -4,35 +4,40 @@ using blogapp.Models;
 
 namespace blogapp.Controllers
 {
+    /// <summary>
+    /// Controller that passes data to the service
+    /// </summary>
     public class CommentController : Controller
     {
         JsonCommentService commentService;
-        JsonLogedService logedService;
-        public CommentController(JsonCommentService jsonCommentService, JsonLogedService jsonLogedService)
+        /// <summary>
+        /// Configuring service
+        /// </summary>
+        /// <param name="jsonCommentService"></param>
+        public CommentController(JsonCommentService jsonCommentService) => commentService = jsonCommentService;
+
+        /// <summary>
+        /// Passes data about comment to add to the controller
+        /// </summary>
+        /// <param name="article">Article to redirect to after comment been added</param>
+        /// <param name="toAdd">Comment to add</param>
+        /// <returns>Redirect on article article page</returns>
+        public IActionResult addComment(Article article, Comment toAdd)
         {
-            commentService = jsonCommentService;
-            logedService = jsonLogedService;
-        }
-
-        public IActionResult addComment(Article article, Loged commentator, Comment toAdd)
-        {
-            var users = logedService.GetLoged();
-
-            if (users.FirstOrDefault(x => x._login == commentator._login)._password != commentator._password)
-                return Redirect("/" + article._title.Replace(" ", "-") + "#CredentialError");
-
             commentService.AddComment(toAdd);
 
             return Redirect("/" + article._title.Replace(" ", "-"));
         }
 
-        public IActionResult addReply(Article article, Loged commentator, Comment toAdd, Comment Reply)
+        /// <summary>
+        /// Adds reply to some comments reply list
+        /// </summary>
+        /// <param name="article">Article to redirect after</param>
+        /// <param name="toAdd">Comment to add reply to</param>
+        /// <param name="Reply">Reply to add to the comments reply list</param>
+        /// <returns>Redirect to the provided article page</returns>
+        public IActionResult addReply(Article article, Comment toAdd, Comment Reply)
         {
-            var users = logedService.GetLoged();
-
-            if (users.FirstOrDefault(x => x._login == commentator._login)._password != commentator._password)
-                return Redirect("/" + article._title.Replace(" ", "-") + "#CredentialError");
-
             commentService.AddReply(toAdd, Reply);
 
             return Redirect("/" + article._title.Replace(" ", "-"));

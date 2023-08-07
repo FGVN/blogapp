@@ -5,6 +5,10 @@ namespace blogapp.Pages
 {
     public class LogoutModel : PageModel
     {
+        /// <summary>
+        /// Deleteing saved users cookie values
+        /// </summary>
+        /// <returns>Redirect to Index</returns>
         public IActionResult OnGet()
         {
             var cookieOptions = new CookieOptions();
