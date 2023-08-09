@@ -10,9 +10,9 @@ public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
 
-    public JsonLogedService LogedService;
+    public SQLLogedService LogedService;
     public LoginController loginController;
-    public JsonArticleService ArticleService;
+    public SQLArticleService ArticleService;
     public ArticleController articleController;
     public IEnumerable<Article> articles;
 
@@ -22,8 +22,8 @@ public class IndexModel : PageModel
     /// Configuring services and controllers
     /// </summary>
     public IndexModel(ILogger<IndexModel> logger,
-                    JsonLogedService logedservice,
-                    JsonArticleService articleservice)
+                    SQLLogedService logedservice,
+                    SQLArticleService articleservice)
     {
         _logger = logger;
         LogedService = logedservice;

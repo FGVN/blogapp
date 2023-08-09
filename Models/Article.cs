@@ -35,7 +35,20 @@
             this._author = _author;
             this._postDate = _postDate;
             _viewcount = 0;
-        } 
+        }
+
+        public Article(int _id, string _header, string _about, string _title, 
+            string _text, string _author, DateTime _postDate, int _viewcount)
+        {
+            this._id = _id;
+            this._header = _header;
+            this._about = _about;
+            this._title = _title;
+            this._text = _text;
+            this._author = _author;
+            this._postDate = _postDate;
+            this._viewcount = _viewcount;
+        }
 
     }
 }

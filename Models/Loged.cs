@@ -19,6 +19,14 @@
             _isAdmin = false;
         }
 
+        public Loged(string _username, string _login, string _password, bool _isAdmin)
+        {
+            this._username = _username;
+            this._login = _login;
+            this._password = _password;
+            this._isAdmin = _isAdmin;
+        }
+
         public override string ToString() => JsonSerializer.Serialize<Loged>(this);
     }
 }

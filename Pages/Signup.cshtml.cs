@@ -11,14 +11,14 @@ namespace blogapp.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public JsonLogedService LogedService;
+        public SQLLogedService LogedService;
         public LoginController loginController;
 
         /// <summary>
         /// Configuring ontrollers and services
         /// </summary>
         public Signup(ILogger<IndexModel> logger,
-                    JsonLogedService logedservice)
+                    SQLLogedService logedservice)
         {
             _logger = logger;
             LogedService = logedservice;

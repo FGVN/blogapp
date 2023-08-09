@@ -1,6 +1,6 @@
 using blogapp.Controllers;
 using blogapp.Services;
-
+using blogapp.Data;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,12 +12,32 @@ builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 //builder.Services.AddControllers();
 
 
+string address, database, user, password;
+
+Console.WriteLine("Enter servers address: ");
+address = Console.ReadLine();
+Console.WriteLine("Enter database name: ");
+database = Console.ReadLine();
+Console.WriteLine("Enter username: ");
+user = Console.ReadLine();
+Console.WriteLine("Enter password: ");
+password = Console.ReadLine();
+
+string connectionString = "server=" + address +
+    ";database=" + database +
+    ";user=" + user + 
+";password=" + password + ";";
+
 //configuring services
-builder.Services.AddTransient<LoginController>();
-builder.Services.AddTransient<JsonLogedService>();
-builder.Services.AddTransient<JsonArticleService>();
-builder.Services.AddTransient<JsonCommentService>();
-builder.Services.AddTransient<JsonReactionService>();
+
+AppDbContext context = new AppDbContext(connectionString);
+
+builder.Services.AddTransient<SQLArticleService>();
+builder.Services.AddTransient<SQLCommentService>();
+builder.Services.AddTransient<SQLLogedService>();
+builder.Services.AddTransient<SQLReactionService>();
+
+
 
 builder.Services.AddDistributedMemoryCache();
 
@@ -53,23 +73,18 @@ app.UseSession();
 
 app.MapRazorPages();
 
-//JsonLogedService loged = new JsonLogedService(this.IWebHostEnvironment);
-//LoginController cont = new LoginController(loged);
-
-//app.MapGet("/GetLoged", () => );
-
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapRazorPages();
     endpoints.MapControllers();
-    //endpoints.MapGet("/products", (context) =>
-    //{
-    //    var products = app.ApplicationServices.GetService<JsonFileProductService>().GetProducts();
-    //    var json = JsonSerializer.Serialize<IEnumerable<Product>>(products);
-    //    return context.Response.WriteAsync(json);
-    //});
 });
 
 app.UseStaticFiles();
 
 app.Run();
+
+
+public class MyOptions
+{
+    public string Test { get; set; }
+}

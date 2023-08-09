@@ -10,12 +10,12 @@ namespace blogapp.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public JsonArticleService ArticleService;
+        public SQLArticleService ArticleService;
         public ArticleController articleController;
 
         public Article tempArticle;
         public NewArticle(ILogger<IndexModel> logger,
-                    JsonArticleService articleservice)
+                    SQLArticleService articleservice)
         {
             _logger = logger;
             ArticleService = articleservice;

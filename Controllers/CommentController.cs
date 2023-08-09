@@ -9,12 +9,12 @@ namespace blogapp.Controllers
     /// </summary>
     public class CommentController : Controller
     {
-        JsonCommentService commentService;
+        SQLCommentService commentService;
         /// <summary>
         /// Configuring service
         /// </summary>
         /// <param name="jsonCommentService"></param>
-        public CommentController(JsonCommentService jsonCommentService) => commentService = jsonCommentService;
+        public CommentController(SQLCommentService CommentService) => commentService = CommentService;
 
         /// <summary>
         /// Passes data about comment to add to the controller

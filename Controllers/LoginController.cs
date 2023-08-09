@@ -10,11 +10,11 @@ namespace blogapp.Controllers
     /// </summary>
     public class LoginController : ControllerBase
     {
-        public JsonLogedService LogedService { get; }
+        public SQLLogedService LogedService { get; }
         /// <summary>
         /// Configureing service
         /// </summary>
-        public LoginController(JsonLogedService logedService) => LogedService = logedService;
+        public LoginController(SQLLogedService logedService) => LogedService = logedService;
 
         /// <summary>
         /// Adds new users data

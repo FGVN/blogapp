@@ -16,24 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\FGVN\source\repos\blogapp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/FGVN/source/repos/blogapp/Pages/1ims.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMWltcy5jc2h0bWw=
+[C:/Users/FGVN/source/repos/blogapp/Pages/1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FGVN/source/repos/blogapp/Pages/1Reaction.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMVJlYWN0aW9uLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/FGVN/source/repos/blogapp/Pages/2Imgs.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMkltZ3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/FGVN/source/repos/blogapp/Pages/2Reactiontest.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcMlJlYWN0aW9udGVzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/FGVN/source/repos/blogapp/Pages/Delete-article.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlLWFydGljbGUuY3NodG1s
+[C:/Users/FGVN/source/repos/blogapp/Pages/Deleteme.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FGVN/source/repos/blogapp/Pages/EditArticle.cshtml]
@@ -44,24 +32,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FGVN/source/repos/blogapp/Pages/first-post.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZmlyc3QtcG9zdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/FGVN/source/repos/blogapp/Pages/Funny-title.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVubnktdGl0bGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/FGVN/source/repos/blogapp/Pages/Ill-delete-it.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSWxsLWRlbGV0ZS1pdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/FGVN/source/repos/blogapp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/FGVN/source/repos/blogapp/Pages/Lipsum.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlwc3VtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FGVN/source/repos/blogapp/Pages/Login.cshtml]
@@ -84,10 +56,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FGVN/source/repos/blogapp/Pages/second-post.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcc2Vjb25kLXBvc3QuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/FGVN/source/repos/blogapp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -96,20 +64,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2lnbnVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FGVN/source/repos/blogapp/Pages/Some-title.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29tZS10aXRsZS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/FGVN/source/repos/blogapp/Pages/testPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGVzdFBhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/FGVN/source/repos/blogapp/Pages/title-title.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdGl0bGUtdGl0bGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/FGVN/source/repos/blogapp/Pages/welcome-post.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcd2VsY29tZS1wb3N0LmNzaHRtbA==
+[C:/Users/FGVN/source/repos/blogapp/Pages/Title.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGl0bGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/FGVN/source/repos/blogapp/Pages/_ViewImports.cshtml]

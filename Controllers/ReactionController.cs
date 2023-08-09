@@ -9,11 +9,11 @@ namespace blogapp.Controllers
     /// </summary>
     public class ReactionController : Controller
     {
-        public JsonReactionService JsonReactionService { get; set; }
+        public SQLReactionService ReactionService { get; set; }
         /// <summary>
         /// Configuring service
         /// </summary>
-        public ReactionController(JsonReactionService jsonReactionService) => JsonReactionService = jsonReactionService;
+        public ReactionController(SQLReactionService reactionService) => ReactionService = reactionService;
         /// <summary>
         /// Adds reaction to the article by internal logic
         /// </summary>
@@ -22,25 +22,27 @@ namespace blogapp.Controllers
         public IActionResult React(Reaction toAdd)
         {
 
-            var reacts = JsonReactionService.GetReactions();
+            var reacts = ReactionService.GetReactions();
+            foreach(var i in reacts)
+                Console.WriteLine(i);
             if(reacts.Where(x => x._article_id == toAdd._article_id && x._username == toAdd._username).Any())
             {
                 //if user has already reacted in the same way to that article - delete reaction
                 if (reacts.Where(x => x._article_id == toAdd._article_id 
                     && x._username == toAdd._username
                     && x._reaction == toAdd._reaction).Any())
-                    JsonReactionService.RemoveReaction(toAdd);
+                    ReactionService.RemoveReaction(toAdd);
                 //if user has already reacted in different way to the same article - change reaction on the new one
                 else
                 {
-                    JsonReactionService.RemoveReaction(
+                    ReactionService.RemoveReaction(
                         reacts.First(x => x._article_id == toAdd._article_id && x._username == toAdd._username));
-                    JsonReactionService.AddReaction(toAdd);
+                    ReactionService.AddReaction(toAdd);
                 }
             }
             //if user has not reacted yet - add reaction
             else
-                JsonReactionService.AddReaction(toAdd);
+                ReactionService.AddReaction(toAdd);
             return Redirect("/");
         }
 
@@ -51,7 +53,7 @@ namespace blogapp.Controllers
         /// <returns>Array of reactions where index in array is reaction and value at index - number of reactions</returns>
         public int[] Display(int article_id)
         {
-            var reacts = JsonReactionService.GetReactions();
+            var reacts = ReactionService.GetReactions();
             int[] result;
 
             if (reacts.Select(x => x._reaction).Distinct().Count() > 2)

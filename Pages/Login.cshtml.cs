@@ -10,14 +10,14 @@ public class Login : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
 
-    public JsonLogedService LogedService;
+    public SQLLogedService LogedService;
     public LoginController loginController;
 
     /// <summary>
     /// Configuring controllers and services
     /// </summary>
     public Login(ILogger<IndexModel> logger,
-                JsonLogedService logedservice)
+                SQLLogedService logedservice)
     {
         _logger = logger;
         LogedService = logedservice;

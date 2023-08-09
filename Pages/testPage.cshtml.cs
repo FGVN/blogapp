@@ -10,9 +10,9 @@ namespace blogapp.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public JsonArticleService ArticleService;
-        public JsonCommentService CommentService;
-        public JsonLogedService LogedService;
+        public SQLArticleService ArticleService;
+        public SQLCommentService CommentService;
+        public SQLLogedService LogedService;
 
         public ArticleController articleController;
         public CommentController commentController;
@@ -26,10 +26,10 @@ namespace blogapp.Pages
         /// Configuring controllers and services
         /// </summary>
         public testPageModel(ILogger<IndexModel> logger,
-                    JsonArticleService articleservice,
-                    JsonLogedService logedservice,
-                    JsonCommentService commentservice,
-                    JsonReactionService reactionservice)
+                    SQLArticleService articleservice,
+                    SQLLogedService logedservice,
+                    SQLCommentService commentservice,
+                    SQLReactionService reactionservice)
         {
             _logger = logger;
             ArticleService = articleservice;
@@ -58,9 +58,9 @@ namespace blogapp.Pages
         /// Updating viewcount for an article
         /// </summary>
         /// <param name="id">Id of an article to update viewcount</param>
-        public Article updateViewcount(int id)
+        public Article updateViewcount(string title)
         {
-            ArticleService.IncreaseView(id);
+            ArticleService.IncreaseView(title);
             return articles[0];
         }
 

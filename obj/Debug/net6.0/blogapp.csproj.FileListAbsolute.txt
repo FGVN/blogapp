@@ -2130,7 +2130,6 @@ C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Data.DataSetExte
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Data.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Diagnostics.Contracts.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Diagnostics.Debug.dll
-C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Diagnostics.EventLog.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Diagnostics.FileVersionInfo.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Diagnostics.Process.dll
@@ -2235,8 +2234,6 @@ C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.ServiceProcess.d
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Text.Encoding.CodePages.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Text.Encoding.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Text.Encoding.Extensions.dll
-C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Text.Encodings.Web.dll
-C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Text.Json.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Text.RegularExpressions.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Threading.Channels.dll
 C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\refs\System.Threading.dll
@@ -2527,3 +2524,20 @@ C:\Users\FGVN\source\repos\blogapp\obj\Debug\net6.0\scopedcss\projectbundle\blog
 C:\Users\FGVN\source\repos\blogapp\obj\Debug\net6.0\blogapp.csproj.CopyComplete
 C:\Users\FGVN\source\repos\blogapp\obj\Debug\net6.0\blogapp.genruntimeconfig.cache
 C:\Users\FGVN\source\repos\blogapp\obj\Debug\net6.0\ref\blogapp.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\ZstdSharp.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\Users\FGVN\source\repos\blogapp\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

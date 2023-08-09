@@ -9,12 +9,12 @@ namespace blogapp.Controllers
     /// </summary>
     public class ArticleController : ControllerBase
     {
-        public JsonArticleService ArticleService { get; set; }
+        public SQLArticleService ArticleService { get; set; }
         /// <summary>
         /// Setting up service
         /// </summary>
         /// <param name="articleService"></param>
-        public ArticleController(JsonArticleService articleService) => ArticleService = articleService;
+        public ArticleController(SQLArticleService articleService) => ArticleService = articleService;
 
         /// <summary>
         /// Gets some article, checks if it is not empty and passes data to servcie

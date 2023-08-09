@@ -25,5 +25,14 @@
             _postDate = DateTime.Now;
             _replies = new List<Comment>();
         }
+
+        public Comment(int _article_id, string _username, string _text, List<Comment> _replies, DateTime _postDate)
+        {
+            this._article_id = _article_id;
+            this._username = _username;
+            this._text = _text;
+            this._replies = _replies;
+            this._postDate = _postDate;
+        }
     }
 }

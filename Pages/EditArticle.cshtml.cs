@@ -10,7 +10,7 @@ namespace blogapp.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public JsonArticleService ArticleService;
+        public SQLArticleService ArticleService;
         public ArticleController articleController;
 
         public Article toEdit { get; set; }
@@ -22,7 +22,7 @@ namespace blogapp.Pages
         /// Configuring controllers and services
         /// </summary>
         public EditArticle(ILogger<IndexModel> logger,
-                    JsonArticleService articleservice)
+                    SQLArticleService articleservice)
         {
             _logger = logger;
             ArticleService = articleservice;
@@ -40,6 +40,7 @@ namespace blogapp.Pages
             {
                 Console.WriteLine("Title" + Request.Cookies["tempTitle"]);
                 toEdit = articleController.GetArticles().First(x => x._title == Request.Cookies["tempTitle"]);
+                articleController.DeleteArticle(Request.Cookies["tempTitle"]);
             }
         }
 
