@@ -27,8 +27,9 @@ Replace your_username with your MySQL username and your_database_name with your 
 
 5. **Configure Connection:** Update the appsettings.json file in the project with your MySQL connection details. Modify the DefaultConnection section to match your MySQL server, username, password, and database name.
 
-6, **Run Application:** Navigate to the project solution file in your terminal and run:
+6. **Run Application:** Navigate to the project solution file in your terminal and run:
 `dotnet run`
+
 7. **Access Website:** Open the website in your browser.
 
 8. **Register User:** Register a new user using the provided registration functionality.
