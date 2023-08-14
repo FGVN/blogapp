@@ -49,7 +49,7 @@ Happy blogging with the MySQL-powered blogapp!
 
 ### MySQL Database Branch
 If you prefer to use JSON database instead of MySQL, you can check out the MySQL branch of this repository:
-[JSON Branch]([https://github.com/FGVN/blogapp](https://github.com/FGVN/blogapp/edit/JsonData)https://github.com/FGVN/blogapp/edit/JsonData)
+[JSON Branch](https://github.com/FGVN/blogapp/tree/JsonData)
 
 
 
